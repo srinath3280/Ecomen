@@ -1,0 +1,18 @@
+/* Awards & Recognition */
+
+.accreditationAwards {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.accreditationAwards-heading {
+    margin: 50px 0px 25px;
+}
+
+.accreditationAwards-heading h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #81d742;
+    text-align: center;
+}

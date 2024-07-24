@@ -1,0 +1,46 @@
+.about-mySwiper {
+    width: 80%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-mySwiper .about-swiperSlide {
+    width: 100%;
+    height: 550px;
+}
+
+.about-mySwiper .about-swiperSlide img {
+    width: 100%;
+    height: 550px;
+}
+
+
+/* Customize navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+    /* Change this to the desired color */
+    font-size: 10px;
+    /* Change this to the desired font size */
+    top: 50%;
+    /* Adjust this to change the vertical position */
+    transform: translateY(80%);
+    /* Center the buttons vertically */
+}
+
+.swiper-button-next {
+    right: 10px;
+    /* Adjust this to change the horizontal position */
+}
+
+.swiper-button-prev {
+    left: 10px;
+    /* Adjust this to change the horizontal position */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #f00;
+    /* Change this to the desired hover color */
+}
