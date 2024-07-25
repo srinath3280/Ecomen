@@ -17,6 +17,11 @@ import Services from './views/services/services';
 import TrainingServices from './views/trainingServices/trainingServices';
 import NABETSector from './views/nabetSector/nabetSector';
 import AccreditationAwards from './views/accreditationAwards/accreditationAwards';
+import PressCoverage from './views/pressCoverage/pressCoverage';
+import Contact from './views/contact/contact';
+import Laboratory from './views/laboratory/laboratory';
+import GroupVocationalTraining from './views/trainingServices/groupVocational/groupVocational';
+import ResearchTraining from './views/trainingServices/researchTraining/researchTraining';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +41,10 @@ const router = createBrowserRouter([
         element:<Services></Services>
       },
       {
+        path:'/laboratory',
+        element:<Laboratory></Laboratory>
+      },
+      {
         path:'/training-services',
         element:<TrainingServices></TrainingServices>
       },
@@ -46,7 +55,27 @@ const router = createBrowserRouter([
       {
         path:'/accreditation-awards',
         element:<AccreditationAwards></AccreditationAwards>
-      }
+      },
+      {
+        path:'/press-coverage-events',
+        element:<PressCoverage></PressCoverage>
+      },
+      {
+        path:'/contact',
+        element:<Contact></Contact>
+      },
+
+      // Training Services Child Components
+      {
+        path:'/gvtc',
+        element:<GroupVocationalTraining></GroupVocationalTraining>
+      },
+      {
+        path:'/research-and-training-centre',
+        element:<ResearchTraining></ResearchTraining>
+      },
+
+      
     ]
   },
 ]);

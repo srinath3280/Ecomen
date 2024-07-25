@@ -1,69 +1,79 @@
-/* NABET Accredited Sectors */
+@media (min-width: 1281px) {
+    /* NABET Accredited Sectors */
 
-.nabetSector {
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-}
+    .nabetSector {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
 
-.nabetSector-heading {
-    margin: 50px 0px 25px;
-}
+    .nabetSector-heading {
+        margin: 50px 0px 25px;
+    }
 
-.nabetSector-heading h1 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #81d742;
-    text-align: center;
-}
+    .nabetSector-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
 
-.nabetSector-text {
-    width: 80%;
-    height: auto;
-    margin: 10px 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
+    .nabetSector-text {
+        width: 80%;
+        height: auto;
+        margin: 10px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
 
-.nabetSector-text p {
-    font-size: 15px;
-    color: #282828;
-}
+    .nabetSector-text p {
+        font-size: 15px;
+        color: #282828;
+    }
 
 
-.nabetSector-content {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .nabetSector-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.nabetSector-content-image {
-    width: 225px;
-    height: 150px;
-    margin: 40px 5px;
-    position: relative;
-}
+    .nabetSector-content-image {
+        width: 20%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 20px 25px ;
+    }
 
-.nabetSector-content-image img {
-    width: 225px;
-    height: 150px;
-    transition: all 0.4s;
-}
-.nabetSector-content-image img:hover {
-    transform: scale(1.03);
-}
+    .nabetSector-content-image img {
+        width: 225px;
+        height: 150px;
+        transition: all 0.4s;
+    }
 
-.nabetSector-content-image a {
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #282828;
+    .nabetSector-content-image img:hover {
+        transform: scale(1.03);
+    }
+
+    .nabetSector-content-image a {
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #282828;
+    }
 }

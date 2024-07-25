@@ -28,10 +28,10 @@ const Footer = () => {
                 <a href='/our-services'><i class="bi bi-chevron-right"></i>Our Services</a>
               </li>
               <li>
-                <a href='/'><i class="bi bi-chevron-right"></i>Laboratory</a>
+                <a href='/laboratory'><i class="bi bi-chevron-right"></i>Laboratory</a>
               </li>
               <li>
-                <a href='/'><i class="bi bi-chevron-right"></i>Contact Us</a>
+                <a href='/contact'><i class="bi bi-chevron-right"></i>Contact Us</a>
               </li>
               <li>
                 <a href='/service-sectors'><i class="bi bi-chevron-right"></i>NABET Sectors</a>

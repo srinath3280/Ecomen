@@ -1,48 +1,50 @@
-/* Our Training Services */
+@media (min-width: 1281px) {
+    /* Our Training Services */
 
-.trainingServices {
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-}
+    .trainingServices {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
 
-.trainingServices-heading {
-    margin: 50px 0px;
-}
+    .trainingServices-heading {
+        margin: 50px 0px;
+    }
 
-.trainingServices-heading h1 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #81d742;
-    text-align: center;
-}
+    .trainingServices-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
 
-.trainingServices-content {
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .trainingServices-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.trainingServices-content-image {
-    width: 300px;
-    height: 200px;
-}
+    .trainingServices-content-image {
+        width: 300px;
+        height: 200px;
+    }
 
-.trainingServices-content-image img {
-    width: 300px;
-    height: 200px;
-}
+    .trainingServices-content-image img {
+        width: 300px;
+        height: 200px;
+    }
 
-.trainingServices-content-image a {
-    font-size: 22px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #282828;
+    .trainingServices-content-image a {
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #282828;
+    }
 }

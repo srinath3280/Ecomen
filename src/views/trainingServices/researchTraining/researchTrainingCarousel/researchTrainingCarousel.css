@@ -1,0 +1,14 @@
+@media (min-width: 1281px) {
+    .researchTraining-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .researchTraining-mySwiper-slides div{
+        width: 110%;
+        height: 200px;
+    }
+    .researchTraining-mySwiper-slides div img{
+        width: 100%;
+        height: 200px;
+    }
+}

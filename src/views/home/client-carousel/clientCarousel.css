@@ -1,5 +1,6 @@
-.client-mySwiper{
-    width: 80%;
-    height: 200px;
+@media (min-width: 1281px) {
+    .client-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
 }
-

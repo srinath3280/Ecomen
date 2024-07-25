@@ -1,108 +1,122 @@
-.App-headerSection{
-  width: 80%;
-  height: 75px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 10px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -25px;
-}
+@media (min-width: 1281px) {
+  .App-headerSection {
+    width: 80%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+  }
 
-.App-headerSection-logo img{
-  width: 150px;
-  height: 50px;
-  margin: 0px 25px;
-}
+  .App-headerSection-logo img {
+    width: 150px;
+    height: 50px;
+    margin: 0px 25px;
+  }
 
-.App-headerSection-phonelink a{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-decoration: none;
+  .App-headerSection-phonelink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
 
-}
-.App-headerSection-phonelink a div{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.App-headerSection-phonelink a i{
-  font-size: 20px;
-  padding: 0px 10px;
-  color: gray;
-}
-.App-headerSection-phonelink a div span{
-  font-size: 14px;
-  color: black;
-}
-.App-headerSection-phonelink a div text{
-  font-size: 14px;
-  color: gray;
-}
+  }
 
-.App-headerSection-maillink a{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-decoration: none;
+  .App-headerSection-phonelink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
-}
-.App-headerSection-maillink a div{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.App-headerSection-maillink a i{
-  font-size: 20px;
-  padding: 0px 10px;
-  color: gray;
-}
-.App-headerSection-maillink a div span{
-  font-size: 14px;
-  color: black;
-}
-.App-headerSection-maillink a div text{
-  font-size: 14px;
-  color: gray;
-}
+  .App-headerSection-phonelink a i {
+    font-size: 20px;
+    padding: 0px 10px;
+    color: gray;
+  }
 
-.App-headerSection-locationlink a{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-decoration: none;
+  .App-headerSection-phonelink a div span {
+    font-size: 14px;
+    color: black;
+  }
 
-}
-.App-headerSection-locationlink a div{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.App-headerSection-locationlink a i{
-  font-size: 20px;
-  padding: 0px 10px;
-  color: gray;
-}
-.App-headerSection-locationlink a div span{
-  font-size: 14px;
-  color: black;
-}
-.App-headerSection-locationlink a div text{
-  font-size: 14px;
-  color: gray;
-}
+  .App-headerSection-phonelink a div text {
+    font-size: 14px;
+    color: gray;
+  }
 
-.App-headerSection-divideline{
-  height: 25px;
-  border: 1px solid rgb(230, 227, 227);
-  margin: 7px 10px 0px;
+  .App-headerSection-maillink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-maillink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-maillink a i {
+    font-size: 20px;
+    padding: 0px 10px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink a div span {
+    font-size: 14px;
+    color: black;
+  }
+
+  .App-headerSection-maillink a div text {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-locationlink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-locationlink a i {
+    font-size: 20px;
+    padding: 0px 10px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink a div span {
+    font-size: 14px;
+    color: black;
+  }
+
+  .App-headerSection-locationlink a div text {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .App-headerSection-divideline {
+    height: 25px;
+    border: 1px solid rgb(230, 227, 227);
+    margin: 7px 10px 0px;
+  }
 }

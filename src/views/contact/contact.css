@@ -1,0 +1,269 @@
+@media (min-width: 1281px) {
+    /* Contact Us */
+
+    .contact {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .contact-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .contact-info {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-info-address {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact-info-map {
+        width: 50%;
+        height: auto;
+    }
+
+
+    .contact-info h2 {
+        font-size: 19px;
+        color: #282828;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info h3 {
+        font-size: 20px;
+        color: #81D742;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info p {
+        font-size: 17px;
+        color: #212529;
+        margin: 0px 0px 30px;
+        padding: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info-address-contact p {
+        font-size: 17px;
+        color: #212529;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info-address-contact p span {
+        font-size: 17px;
+        color: #81D742;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info-address-contact p a {
+        text-decoration: none;
+        font-size: 17px;
+        color: #81D742;
+        font-weight: 600;
+        transition: 0.5s;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-info-address-contact p a:hover {
+        color: #007bff;
+    }
+
+
+    .contact-info-map iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+
+
+    /* Our Branch Offices */
+    .contact-offices {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .contact-offices-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-offices-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .contact-offices-branch {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact-offices-branch-1 {
+        width: 45%;
+        height: auto;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .contact-offices-branch-1 h4 {
+        font-size: 15px;
+        font-weight: 600;
+        color: #282828;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-offices-branch-1 p {
+        font-size: 15px;
+        color: #212529;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-offices-branch-1 div p {
+        font-size: 15px;
+        color: #212529;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-offices-branch-1 div p span {
+        font-size: 15px;
+        font-weight: 600;
+        color: #81D742;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .contact-divideline {
+        width: 80%;
+        border: 1px solid #2c2c2c;
+        margin: 25px auto 100px;
+        opacity: 0.1;
+    }
+
+
+    /* Send us a Message */
+    .contact-message {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .contact-message-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-message-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .contact-message-form {
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-message-form form {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-message-form form input[type="text"],
+    input[type="email"] {
+        width: 45%;
+        height: 50px;
+        margin: 20px 5px;
+        padding: 0px 5px;
+        border: 1px solid rgb(212, 210, 210);
+    }
+
+    .contact-message-form form input {
+        outline: none;
+        transition: border-color 0.3s ease;
+    }
+    .contact-message-form form input:focus {
+        border-color: #ff6900;
+    }
+    .contact-message-form form textarea {
+        outline: none;
+        transition: border-color 0.3s ease;
+    }
+    .contact-message-form form textarea:focus {
+        border-color: #ff6900;
+    }
+
+    .contact-message-form form input::placeholder {
+        font-size: 18px;
+    }
+
+    .contact-message-form form textarea {
+        width: 95%;
+        height: 100px;
+        margin: 15px 0px;
+        border: 1px solid rgb(212, 210, 210);
+    }
+
+    .contact-message-form form textarea::placeholder {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-message-form form button {
+        width: fit-content;
+        padding: 20px 25px;
+        border: none;
+        background-color: #81D742;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .contact-message-form form button:hover {
+        background-color: #282828;
+        color: #fff;
+    }
+}

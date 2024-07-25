@@ -1,18 +1,118 @@
-/* Awards & Recognition */
+@media (min-width: 1281px) {
+    /* Awards & Recognition */
 
-.accreditationAwards {
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
-}
+    .accreditationAwards {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
 
-.accreditationAwards-heading {
-    margin: 50px 0px 25px;
-}
+    .accreditationAwards-heading {
+        margin: 50px 0px 25px;
+    }
 
-.accreditationAwards-heading h1 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #81d742;
-    text-align: center;
+    .accreditationAwards-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+
+    .accreditationAwards-recognition {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .accreditationAwards-recognition-image1 {
+        width: 30%;
+        height: 350px;
+    }
+
+    .accreditationAwards-recognition-image1 img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .accreditationAwards-recognition-image2 {
+        width: 70%;
+        height: 350px;
+    }
+
+    .accreditationAwards-recognition-image2 img {
+        width: 100%;
+        height: 350px;
+    }
+
+
+    /* Accreditation */
+
+    .accreditationAwards-accreditation {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .accreditationAwards-accreditation-heading {
+        margin: 50px 0px 25px;
+    }
+
+    .accreditationAwards-accreditation-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+
+    .accreditationAwards-accreditation-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .accreditationAwards-accreditation-content-block {
+        width: 30%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 10px;
+        padding: 0px 5px;
+    }
+
+    .accreditationAwards-accreditation-content-block img {
+        width: 150px;
+        height: 150px;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+    }
+
+    .accreditationAwards-accreditation-content-block img:hover {
+        filter: grayscale(0%);
+    }
+
+    .accreditationAwards-accreditation-content-block p {
+        width: 150px;
+        height: auto;
+        font-size: 15px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
 }

@@ -1,46 +1,71 @@
-.ourproject-mySwiper {
-    width: 80%;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
+@media (min-width: 1281px) {
+    .ourproject-mySwiper {
+        width: 80%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.ourproject-mySwiper .ourproject-swiperSlide {
-    width: 100%;
-    height: 550px;
-}
+    .ourproject-mySwiper .ourproject-swiperSlide {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 
-.ourproject-mySwiper .ourproject-swiperSlide img {
-    width: 100%;
-    height: 550px;
-}
+    .ourproject-mySwiper .ourproject-swiperSlide .ourproject-swiperSlide-image {
+        width: 50%;
+        height: 550px;
+    }
+
+    .ourproject-mySwiper .ourproject-swiperSlide .ourproject-swiperSlide-image img {
+        width: 100%;
+        height: 550px;
+    }
+
+    .ourproject-swiperSlide-content {
+        width: 45%;
+        height: 550px;
+        background-color: #80D742;
+        padding: 25px 25px;
+    }
+
+    .ourproject-swiperSlide-content p {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .ourproject-swiperSlide-content p span {
+        font-size: 19px;
+        font-weight: 600;
+        color: black;
+        font-family: "Open Sans", sans-serif;
+    }
 
 
-/* Customize navigation buttons */
-.swiper-button-next,
-.swiper-button-prev {
-    color: #fff;
-    /* Change this to the desired color */
-    font-size: 10px;
-    /* Change this to the desired font size */
-    top: 50%;
-    /* Adjust this to change the vertical position */
-    transform: translateY(80%);
-    /* Center the buttons vertically */
-}
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        font-size: 10px;
+        top: 50%;
+        transform: translateY(80%);
+    }
 
-.swiper-button-next {
-    right: 10px;
-    /* Adjust this to change the horizontal position */
-}
+    .swiper-button-next {
+        right: 10px;
+    }
 
-.swiper-button-prev {
-    left: 10px;
-    /* Adjust this to change the horizontal position */
-}
+    .swiper-button-prev {
+        left: 10px;
+    }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    color: #f00;
-    /* Change this to the desired hover color */
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: rgb(177, 52, 52);
+    }
 }

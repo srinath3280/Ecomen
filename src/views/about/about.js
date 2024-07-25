@@ -1,8 +1,41 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './about.css';
 import AboutCarousel from './aboutCarousel/aboutCarousel';
 
 const About = () => {
+
+    // About Animation Start
+    const AboutRefs = useRef([]);
+
+    useEffect(() => {
+
+        // Animate the first image immediately on page load
+        if (AboutRefs.current[0]) {
+            AboutRefs.current[0].classList.add('in-view');
+        }
+
+        const handleScroll = () => {
+            const triggerBottom = window.innerHeight / 5 * 4;
+            AboutRefs.current.forEach(ref => {
+                const AboutTop = ref.getBoundingClientRect().top;
+
+                if (AboutTop < triggerBottom) {
+                    ref.classList.add('in-view');
+                } else {
+                    ref.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // About Animation End
+
     return (
         <div>
             <section className='about'>
@@ -40,9 +73,9 @@ const About = () => {
                         </p>
                     </div>
                     <div className='about-content-right'>
-                        <img src='/images/about/infoSymbols/nabet-1-150x150.jpg' alt='' />
-                        <img src='/images/about/infoSymbols/nabl1-150x150.jpg' alt='' />
-                        <img src='/images/about/infoSymbols/moefcc-1-150x150.jpg' alt='' />
+                        <img className='about-content-right-image' src='/images/about/infoSymbols/nabet-1-150x150.jpg' alt='' data-direction="right" ref={el => AboutRefs.current[0] = el} />
+                        <img className='about-content-right-image' src='/images/about/infoSymbols/nabl1-150x150.jpg' alt='' data-direction="right" ref={el => AboutRefs.current[1] = el} />
+                        <img className='about-content-right-image' src='/images/about/infoSymbols/moefcc-1-150x150.jpg' alt='' data-direction="right" ref={el => AboutRefs.current[2] = el} />
                     </div>
                 </div>
             </section>
@@ -67,7 +100,7 @@ const About = () => {
                 </div>
                 <div className='about-expertise-buttons'>
                     <a href='/our-services'>OUR SERVICES<i class="bi bi-arrow-right-short"></i></a>
-                    <a href='/'>CONTACT US<i class="bi bi-arrow-right-short"></i></a>
+                    <a href='/contact'>CONTACT US<i class="bi bi-arrow-right-short"></i></a>
                 </div>
             </section>
 
