@@ -770,3 +770,197 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .soilMonitoring {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilMonitoring-heading {
+        margin: 50px 0px;
+    }
+
+    .soilMonitoring-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilMonitoring-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilMonitoring-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilMonitoring-content-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .soilMonitoring-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilMonitoring-content-right p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .soilMonitoring-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .soilMonitoring-study-heading {
+        margin: 25px 0px;
+    }
+
+    .soilMonitoring-study-heading p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .soilMonitoring-study-list {
+        width: 80%;
+        height: auto;
+    }
+
+    .soilMonitoring-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilMonitoring-study-list ul li {
+        width: 80%;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 5px 0px;
+    }
+
+    .soilMonitoring-study-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilMonitoring-study-text p {
+        font-size: 10px;
+        color: #212829;
+        text-align: justify;
+    }
+
+    .soilMonitoring-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .soilMonitoring-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .soilMonitoring-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+
+    /* Types of Monitoring */
+    .soilMonitoring-types {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .soilMonitoring-types-heading {
+        margin: 50px 0px;
+    }
+
+    .soilMonitoring-types-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilMonitoring-types-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilMonitoring-types-list div {
+        width: 80%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .soilMonitoring-types-list div img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .soilMonitoring-types-list div span {
+        width: 100%;
+        height: 50px;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

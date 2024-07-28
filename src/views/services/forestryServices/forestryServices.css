@@ -498,3 +498,129 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .forestServices {
+        width: 100%;
+        height: auto;
+    }
+
+    .forestServices-heading {
+        margin: 50px 0px;
+    }
+
+    .forestServices-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .forestServices-text {
+        width: 65%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .forestServices-text p {
+        font-size: 10px;
+        font-weight: 500;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .forestServices-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forestServices-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .forestServices-content-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .forestServices-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .forestServices-content-right p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+    /* Service Offerings */
+    .forestServices-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .forestServices-services-heading {
+        margin: 50px 0px;
+    }
+
+    .forestServices-services-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .forestServices-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forestServices-services-list div {
+        width: 80%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px auto;
+    }
+
+    .forestServices-services-list div img{
+        width: 100%;
+        height: 100px;
+    }
+    .forestServices-services-list div a{
+        width: 100%;
+        height: 50px;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

@@ -2180,3 +2180,552 @@
         margin: 50px;
     }
 }
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .about {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-heading {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-content {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .about-content-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content-left h3 {
+        font-size: 12px;
+        color: #282828;
+        font-weight: 600;
+    }
+
+    .about-content-left p {
+        font-size: 10px;
+        color: #212529;
+    }
+
+    .about-content-left ol li {
+        font-size: 10px;
+        color: #212529;
+    }
+
+
+    .about-content-right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content-right img {
+        width: 75px;
+        height: 75px;
+        margin: 5px;
+    }
+
+
+    /* About Image Animation */
+    .about-content-right-image {
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
+    }
+
+    .about-content-right-image[data-direction="right"] {
+        transform: translateX(-50%);
+    }
+
+    .about-content-right-image.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+
+
+    /* Image */
+
+    .about-text {
+        width: 100%;
+        height: 150px;
+        background-image: url('../../../public/images/about/Forest-Clearance-Afforestation.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .about-text-image {
+        width: 100%;
+        height: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text-image p {
+        font-size: 10px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+
+    /* Our Expertise */
+
+    .about-expertise {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-expertise-heading {
+        margin: 50px 0px;
+    }
+
+    .about-expertise-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+
+    .about-expertise-images {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-expertise-images-1 {
+        width: 100%;
+        height: 150px;
+        background-image: url('../../../public/images/about/ourExpertise/Surface-water-monitoring.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px auto;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    .about-expertise-images-1:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 15px;
+    }
+
+    .about-expertise-images-2 {
+        width: 100%;
+        height: 150px;
+        background-image: url('../../../public/images/about/ourExpertise/banner_nabet-scaled.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px auto;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    .about-expertise-images-2:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 15px;
+    }
+
+    .about-expertise-images-3 {
+        width: 100%;
+        height: 150px;
+        background-image: url('../../../public/images/about/ourExpertise/Forest-Clearance-Afforestation.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px auto;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: all 0.2s;
+    }
+
+    .about-expertise-images-3:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 15px;
+    }
+
+
+    .about-expertise-buttons {
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px auto;
+    }
+
+    .about-expertise-buttons a {
+        font-size: 10px;
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+        background-color: #80D642;
+        padding: 10px 15px;
+        margin: 10px 0px;
+    }
+
+    .about-expertise-buttons a .bi-arrow-right-short {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .about-expertise-buttons a:hover {
+        background-color: #795549;
+    }
+
+    /* Board Of Directors */
+
+    .about-board {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-board-heading {
+        margin: 25px 0px;
+    }
+
+    .about-board-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-board-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-bottom: 100px; */
+        padding: 0px 0px 50px;
+    }
+
+    .about-board-content-image {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .about-board-content-image figure img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .about-board-content-image h3 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: #80D642;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Montserrat", Sans-serif;
+    }
+
+    .about-board-content-image p {
+        text-align: center;
+        font-size: 10px;
+        color: #212529;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Montserrat", Sans-serif;
+    }
+
+
+
+    /* EIA Co-Ordinators */
+
+    .about-eia {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-eia-heading {
+        margin: 0px;
+    }
+
+    .about-eia-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-eia-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-eia-content-image {
+        width: 50%;
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .about-eia-content-image figure {
+        width: 50%;
+        height: 100px;
+    }
+
+    .about-eia-content-image figure img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .about-eia-content-image div {
+        width: 100%;
+        height: 275px;
+        text-align: center;
+    }
+
+    .about-eia-content-image div h3 {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+    }
+
+    .about-eia-content-image div p {
+        font-size: 8px;
+        color: #282828;
+    }
+
+
+
+    /* Functional Area Experts */
+
+    .about-funtionalArea {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .about-funtionalArea-heading {
+        margin: 0px;
+    }
+
+    .about-funtionalArea-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-funtionalArea-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-funtionalArea-content-image {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .about-funtionalArea-content-image figure {
+        width: 50%;
+        height: 100px;
+    }
+
+    .about-funtionalArea-content-image figure img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .about-funtionalArea-content-image div {
+        width: 80%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .about-funtionalArea-content-image div h3 {
+        font-size: 11px;
+        font-weight: 600;
+        color: #282828;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .about-funtionalArea-content-image div p {
+        font-size: 10px;
+        color: #282828;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    /* Project Management Cell */
+
+    .about-projectManagement {
+        width: 100%;
+        height: auto;
+        margin: 75px 0px 25px;
+    }
+
+    .about-projectManagement-heading {
+        margin: 0px;
+    }
+
+    .about-projectManagement-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-projectManagement-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 0px 50px;
+    }
+
+    .about-projectManagement-content-image {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .about-projectManagement-content-image figure {
+        width: 50%;
+        height: 100px;
+    }
+
+    .about-projectManagement-content-image figure img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .about-projectManagement-content-image div {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .about-projectManagement-content-image div h3 {
+        font-size: 12px;
+        font-weight: 600;
+        color: #282828;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .about-projectManagement-content-image div p {
+        font-size: 10px;
+        color: #282828;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    /* Gallery */
+
+    .about-gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-gallery-heading {
+        margin: 0px 0px 50px;
+    }
+
+    .about-gallery-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .about-gallery-content {
+        margin: 50px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */

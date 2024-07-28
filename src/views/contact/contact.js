@@ -1,7 +1,41 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './contact.css';
 
+import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
+
+
 const Contact = () => {
+
+    const navigate = useNavigate();
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        console.log(e)
+        console.log(form)
+
+        emailjs
+            .sendForm('service_id', 'template_id', form.current, {
+                publicKey: '',
+            })
+            .then(
+                () => {
+                    document.getElementById('firstname').value = "";
+                    document.getElementById('lastname').value = "";
+                    document.getElementById('mobile').value = "";
+                    document.getElementById('email').value = "";
+                    document.getElementById('company').value = "";
+                    document.getElementById('subject').value = "";
+                    document.getElementById('message').value = "";
+                    alert('Your data submitted successfully!');
+                    navigate('/');
+                },
+                (error) => {
+                    alert('Please Fill Mandatory Fields', error.text);
+                },
+            );
+    };
 
     return (
         <div>
@@ -140,7 +174,7 @@ const Contact = () => {
                 </div>
             </section>
             <div className='contact-divideline'></div>
-            
+
             {/* Send us a Message */}
             <section className='contact-message'>
                 <div className='contact-message-heading'>
@@ -148,31 +182,31 @@ const Contact = () => {
                 </div>
 
                 <div className='contact-message-form'>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <input
                             type='text'
-                            name='firstname'
+                            name='from_fristname'
                             placeholder='First Name'
                             id='firstname'
                             required
                         />
                         <input
                             type='text'
-                            name='lastname'
+                            name='from_lastname'
                             placeholder='Last Name'
                             id='lastname'
                             required
                         />
                         <input
                             type='text'
-                            name='mobile'
+                            name='from_mobile'
                             placeholder='10 digit mobile number'
                             id='mobile'
                             required
                         />
                         <input
                             type='email'
-                            name='firstname'
+                            name='from_email'
                             placeholder='Email'
                             id='email'
                             required
@@ -197,7 +231,7 @@ const Contact = () => {
                             id='message'
                             required
                         />
-                        <button>SEND MESSAGE</button>
+                        <button type='submit' value="Send">SEND MESSAGE</button>
                     </form>
                 </div>
             </section>

@@ -1158,3 +1158,294 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .syntheticOrganicChemicals {
+        width: 100%;
+        height: auto;
+    }
+
+    .syntheticOrganicChemicals-heading {
+        margin: 50px 0px;
+    }
+
+    .syntheticOrganicChemicals-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .syntheticOrganicChemicals-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .syntheticOrganicChemicals-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .syntheticOrganicChemicals-content-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .syntheticOrganicChemicals-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .syntheticOrganicChemicals-content-right p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .syntheticOrganicChemicals-text {
+        width: 65%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .syntheticOrganicChemicals-text p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* Study */
+    .syntheticOrganicChemicals-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .syntheticOrganicChemicals-study-heading {
+        margin: 25px 0px;
+    }
+
+    .syntheticOrganicChemicals-study-heading p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .syntheticOrganicChemicals-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .syntheticOrganicChemicals-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .syntheticOrganicChemicals-study-list ul li {
+        width: 50%;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 10px 0px;
+    }
+
+    /* Service Offerings */
+    .syntheticOrganicChemicals-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .syntheticOrganicChemicals-services-heading {
+        margin: 50px 0px;
+    }
+
+    .syntheticOrganicChemicals-services-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .syntheticOrganicChemicals-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .syntheticOrganicChemicals-services-list div {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .syntheticOrganicChemicals-services-list div img {
+        width: 90%;
+        height: 100px;
+    }
+
+    .syntheticOrganicChemicals-services-list div a {
+        width: 90%;
+        height: 50px;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+
+    /* Projects */
+    .syntheticOrganicChemicals-projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .syntheticOrganicChemicals-projects-completed {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Project-Clearance-sevices2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .syntheticOrganicChemicals-projects-completed div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .syntheticOrganicChemicals-projects-completed div h3 {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .syntheticOrganicChemicals-projects-completed div a {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        background-color: #81D742;
+        padding: 0px 10px;
+    }
+
+    .syntheticOrganicChemicals-projects-ongoing {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Site-specific-services.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .syntheticOrganicChemicals-projects-ongoing div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .syntheticOrganicChemicals-projects-ongoing div h3 {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .syntheticOrganicChemicals-projects-ongoing div a {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        background-color: #81D742;
+        padding: 0px 10px;
+    }
+
+    /* Carousel */
+    .syntheticOrganicChemicals-carousel {
+        margin: 50px 0px;
+    }
+
+    /* Button */
+    .syntheticOrganicChemicals-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .syntheticOrganicChemicals-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .syntheticOrganicChemicals-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

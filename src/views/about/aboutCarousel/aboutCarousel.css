@@ -172,3 +172,50 @@
         color: rgb(192, 26, 26);
     }
 }
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .about-mySwiper {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-mySwiper .about-swiperSlide {
+        width: 100%;
+        height: 200px;
+    }
+
+    .about-mySwiper .about-swiperSlide img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+    /* Customize navigation buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        font-size: 5px;
+        top: 50%;
+        transform: translateY(80%);
+    }
+
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: rgb(192, 26, 26);
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+

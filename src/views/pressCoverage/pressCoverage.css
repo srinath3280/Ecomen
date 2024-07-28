@@ -833,3 +833,212 @@
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    /* Press Coverage */
+
+    .pressCoverage {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .pressCoverage-heading {
+        margin: 50px 0px 25px;
+    }
+
+    .pressCoverage-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .pressCoverage-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-content p {
+        font-size: 10px;
+        color: #212529;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+        text-indent: 32px;
+    }
+
+    .pressCoverage-content ul li {
+        list-style-type: disc;
+        font-size: 10px;
+        color: #212529;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+
+
+    /* Magazine Image */
+    .pressCoverage-magazine {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .pressCoverage-magazine-heading {
+        margin: 50px 0px 25px;
+    }
+
+    .pressCoverage-magazine-heading h1 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .pressCoverage-magazine-image {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-magazine-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Events */
+    .pressCoverage-events {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .pressCoverage-events-heading {
+        margin: 0px 0px 25px;
+    }
+
+    .pressCoverage-events-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+
+    .pressCoverage-events-content1 {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content1 p {
+        font-size: 10px;
+        color: #212529;
+        text-indent: 32px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+
+    .pressCoverage-events-content1-image {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content1-image img {
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+
+    .pressCoverage-events-content1-image img:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+
+    .pressCoverage-events-divideline {
+        width: 80%;
+        border: 1px dashed #81d742;
+        margin: 50px auto;
+    }
+
+
+    .pressCoverage-events-content2 {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content2 p {
+        font-size: 10px;
+        color: #212529;
+        text-indent: 32px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+
+    .pressCoverage-events-content2-image {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content2-image img {
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+
+    .pressCoverage-events-content2-image img:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+
+    .pressCoverage-events-content3 {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content3 p {
+        font-size: 10px;
+        color: #212529;
+        text-indent: 32px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+    }
+
+    .pressCoverage-events-content3-image {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pressCoverage-events-content3-image img {
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+
+    .pressCoverage-events-content3-image img:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+

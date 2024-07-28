@@ -70,3 +70,21 @@
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .pressCoverage-mySwiper {
+        width: 80%;
+        height: 200px;
+        margin-top: 25px;
+    }
+    .pressCoverage-mySwiper-slides div{
+        width: 100%;
+        height: 200px;
+    }
+    .pressCoverage-mySwiper-slides div img{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+

@@ -19,7 +19,7 @@ const ProjectCarousel = () => {
                 centeredSlides={true}
                 loop={true}
                 autoplay={{
-                    delay: 15500,
+                    delay: 3500,
                     disableOnInteraction: false,
                 }}
                 navigation={true}

@@ -506,3 +506,131 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px)  {
+    .stackAirMonitoring {
+        width: 100%;
+        height: auto;
+    }
+
+    .stackAirMonitoring-heading {
+        margin: 50px 0px;
+    }
+
+    .stackAirMonitoring-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .stackAirMonitoring-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stackAirMonitoring-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .stackAirMonitoring-content-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .stackAirMonitoring-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .stackAirMonitoring-content-right p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .stackAirMonitoring-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .stackAirMonitoring-study-heading {
+        margin: 25px 0px;
+    }
+
+    .stackAirMonitoring-study-heading p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .stackAirMonitoring-study-list {
+        width: 80%;
+        height: auto;
+    }
+
+    .stackAirMonitoring-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stackAirMonitoring-study-list ul li {
+        width: 80%;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 10px 0px;
+    }
+
+    .stackAirMonitoring-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .stackAirMonitoring-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .stackAirMonitoring-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

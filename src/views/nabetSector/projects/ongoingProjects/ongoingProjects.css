@@ -202,3 +202,54 @@
 
 /* ------------------------------------------------------------------------------------------------------------ */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .ongoingProjects {
+        width: 80%;
+        height: 100px;
+        background-image: url('../../../../../public/images/nabetSector/moefcc-scaled.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 50px auto;
+    }
+
+    .ongoingProjects-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .ongoingProjects-list {
+        width: 100%;
+        height: auto;
+        margin: 25px 0px 0px;
+    }
+
+    .ongoingProjects-list div{
+        width: 80%;
+        height: auto;
+        margin: 0px;
+    }
+    .ongoingProjects-list div ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .ongoingProjects-list div ul li {
+        width: 80%;
+        height: auto;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 10px auto;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+

@@ -70,4 +70,13 @@
         width: 80%;
         height: 200px;
     }
+    .client-mySwiper-slides{
+        width: 50%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .client-mySwiper-slides img{
+        width: 100%;
+        height: 200px;
+    }
 }

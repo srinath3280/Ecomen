@@ -552,3 +552,92 @@
     font-size: 12px;
   }
 }
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* For Mobiles */
+@media (min-width: 320px) and (max-width: 479px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar1 {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282828;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    transition: all 1s ease-in-out;
+    padding: 10px 50px;
+  }
+
+  .hamburger {
+    width: 100%;
+    height: auto;
+  }
+
+  .hamburger .bi-list {
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+
+  .navbar1 ul {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+
+  .navbar1 ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+  }
+
+  .navbar1 ul li a {
+    text-decoration: none;
+    color: #32D742;
+    font-size: 10px;
+  }
+
+  .navbar1 .open {
+    display: block;
+  }
+
+
+
+  .scrolled1 {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282828;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .scrolled1 ul {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+
+  .scrolled1 ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+  }
+
+  .scrolled1 ul li a {
+    text-decoration: none;
+    color: #32D742;
+    font-size: 10px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */

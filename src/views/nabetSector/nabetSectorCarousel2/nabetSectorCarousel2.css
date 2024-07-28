@@ -70,4 +70,13 @@
         width: 80%;
         height: 200px;
     }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 50%;
+        height: 200px;
+        margin: 0px auto;
+    }
+    .nabetSectorCarousel2-mySwiper-slides img{
+        width: 100%;
+        height: 200px;
+    }
 }

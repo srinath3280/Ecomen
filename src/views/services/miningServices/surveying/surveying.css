@@ -786,3 +786,203 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .surveying {
+        width: 100%;
+        height: auto;
+    }
+
+    .surveying-heading {
+        margin: 50px 0px;
+    }
+
+    .surveying-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .surveying-text {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .surveying-text p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .surveying-content1 {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 25px auto;
+    }
+
+    .surveying-content1-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .surveying-content1-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .surveying-content1-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .surveying-content1-right div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 15px 0px;
+    }
+
+    .surveying-content1-right div p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+
+    .surveying-content2 {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .surveying-content2-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .surveying-content2-left div {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 25px 0px;
+    }
+
+    .surveying-content2-left div p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .surveying-content2-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+
+    }
+
+    .surveying-content2-right img {
+        width: 90%;
+        height: 150px;
+    }
+
+    /* Study */
+    .surveying-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .surveying-study-heading {
+        margin: 25px 0px;
+    }
+
+    .surveying-study-heading p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .surveying-study-list {
+        width: 80%;
+        height: auto;
+    }
+
+    .surveying-study-list img {
+        width: 100%;
+        height: auto;
+    }
+
+    .surveying-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .surveying-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .surveying-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

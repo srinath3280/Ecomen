@@ -504,3 +504,130 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .planningImplementation {
+        width: 100%;
+        height: auto;
+    }
+
+    .planningImplementation-heading {
+        margin: 50px 0px;
+    }
+
+    .planningImplementation-heading h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .planningImplementation-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .planningImplementation-content-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .planningImplementation-content-left img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .planningImplementation-content-right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .planningImplementation-content-right div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+    }
+
+    .planningImplementation-content-right div p {
+        font-size: 10px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .planningImplementation-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .planningImplementation-study-heading {
+        margin: 25px 0px;
+    }
+
+    .planningImplementation-study-heading p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .planningImplementation-study-list {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .planningImplementation-study-list img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .planningImplementation-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .planningImplementation-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .planningImplementation-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
