@@ -1,0 +1,73 @@
+@media (min-width: 1281px) {
+    .nabetSectorCarousel2-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .nabetSectorCarousel2-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nabetSectorCarousel2-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .nabetSectorCarousel2-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides{
+        width: 20%;
+        height: 100px;
+    }
+    .nabetSectorCarousel2-mySwiper-slides img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 320px) and (max-width: 479px) {
+    .nabetSectorCarousel2-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+}

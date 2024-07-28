@@ -32,23 +32,23 @@ const Laboratory = () => {
                 <div className='laboratory-services-content'>
                     <div className='laboratory-services-content-image'>
                         <img src='/images/laboratory/ourLaboratoryServices/water-testing.jpg' alt='' />
-                        <a href='/'>Water Testing</a>
+                        <a href='/water-testing'>Water Testing</a>
                     </div>
                     <div className='laboratory-services-content-image'>
                         <img src='/images/laboratory/ourLaboratoryServices/soil-testing.jpg' alt='' />
-                        <a href='/'>Soil Testing</a>
+                        <a href='/soil-testing'>Soil Testing</a>
                     </div>
                     <div className='laboratory-services-content-image'>
                         <img src='/images/laboratory/ourLaboratoryServices/asbestos-testing.jpg' alt='' />
-                        <a href='/'>Asbestos Testing</a>
+                        <a href='/asbestos-testing'>Asbestos Testing</a>
                     </div>
                     <div className='laboratory-services-content-image'>
                         <img src='/images/laboratory/ourLaboratoryServices/ores-and-mineral-testing.jpg' alt='' />
-                        <a href='/'>Ores and Minerals Testing</a>
+                        <a href='/ores-and-minerals-testing'>Ores and Minerals Testing</a>
                     </div>
                     <div className='laboratory-services-content-image'>
                         <img src='/images/laboratory/ourLaboratoryServices/coke-and-coal-testing.jpg' alt='' />
-                        <a href='/'>Coke and Coal Testing</a>
+                        <a href='/coke-and-coal-testing'>Coke and Coal Testing</a>
                     </div>
                 </div>
             </section>
@@ -62,82 +62,82 @@ const Laboratory = () => {
                 <div className='laboratory-equipment-content'>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/ph-meter-removebg-preview.png' alt='' />
-                        <a href='/'>pH Meter</a>
+                        <a href='/water-testing'>pH Meter</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/flame-photometer.png' alt='' />
-                        <a href='/'>Flame Photometer</a>
+                        <a href='/soil-testing'>Flame Photometer</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/digital-colony-counts.png' alt='' />
-                        <a href='/'>Colony Counter</a>
+                        <a href='/asbestos-testing'>Colony Counter</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/cod-digesters.png' alt='' />
-                        <a href='/'>COD Assembly</a>
+                        <a href='/ores-and-minerals-testing'>COD Assembly</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/centrifuge-removebg-preview.png' alt='' />
-                        <a href='/'>Centrifuge</a>
+                        <a href='/coke-and-coal-testing'>Centrifuge</a>
                     </div>
 
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/bod-incubator.png' alt='' />
-                        <a href='/'>BOD Incubator</a>
+                        <a href='/water-testing'>BOD Incubator</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/bacteriological-incubator.png' alt='' />
-                        <a href='/'>Bacteriological Incubator</a>
+                        <a href='/soil-testing'>Bacteriological Incubator</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/microscope.png' alt='' />
-                        <a href='/'>Microscope</a>
+                        <a href='/asbestos-testing'>Microscope</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/4-digit-analyticsal-balance-removebg-preview.png' alt='' />
-                        <a href='/'>Analytical Balance</a>
+                        <a href='/ores-and-minerals-testing'>Analytical Balance</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/turbidity-meter.png' alt='' />
-                        <a href='/'>Turbidity Meter</a>
+                        <a href='/coke-and-coal-testing'>Turbidity Meter</a>
                     </div>
 
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/spectrophotometer1.png' alt='' />
-                        <a href='/'>Spectrophotometer</a>
+                        <a href='/water-testing'>Spectrophotometer</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/muffle-furnance.png' alt='' />
-                        <a href='/'>Muffle Furnance</a>
+                        <a href='/soil-testing'>Muffle Furnance</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/atomic-absorbtion-spectrometer.png' alt='' />
-                        <a href='/'>Atomic Absorption Spectrophotometer</a>
+                        <a href='/asbestos-testing'>Atomic Absorption Spectrophotometer</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/magnetic-stirrers-with-hot-plate.png' alt='' />
-                        <a href='/'>Magnetic Stirrer</a>
+                        <a href='/ores-and-minerals-testing'>Magnetic Stirrer</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/ion-seletive-meter2-removebg-preview.png' alt='' />
-                        <a href='/'>Ion Selective Meter</a>
+                        <a href='/coke-and-coal-testing'>Ion Selective Meter</a>
                     </div>
 
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/heating-mental.png' alt='' />
-                        <a href='/'>Heating Mantle</a>
+                        <a href='/water-testing'>Heating Mantle</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/gas-chromatograph2.png' alt='' />
-                        <a href='/'>Gas Chromatography</a>
+                        <a href='/soil-testing'>Gas Chromatography</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/conductivity-meter-removebg-preview.png' alt='' />
-                        <a href='/'>Electrical Conductivity Meter</a>
+                        <a href='/asbestos-testing'>Electrical Conductivity Meter</a>
                     </div>
                     <div className='laboratory-equipment-content-image'>
                         <img src='/images/laboratory/laboratoryEquipment/Fuel_Gas_Analyser-removebg-preview.png' alt='' />
-                        <a href='/'>Magnetic Stirrer</a>
+                        <a href='/ores-and-minerals-testing'>Magnetic Stirrer</a>
                     </div>
                 </div>
             </section>

@@ -21,7 +21,140 @@
     .swiper-button-next,
     .swiper-button-prev {
         color: #fff;
-        font-size: 10px;
+        font-size: 5px;
+        top: 50%;
+        transform: translateY(80%);
+    }
+
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: rgb(192, 26, 26);
+    }
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .about-mySwiper {
+        width: 80%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-mySwiper .about-swiperSlide {
+        width: 100%;
+        height: 500px;
+    }
+
+    .about-mySwiper .about-swiperSlide img {
+        width: 100%;
+        height: 500px;
+    }
+
+
+    /* Customize navigation buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        font-size: 5px;
+        top: 50%;
+        transform: translateY(80%);
+    }
+
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: rgb(192, 26, 26);
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-mySwiper {
+        width: 80%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-mySwiper .about-swiperSlide {
+        width: 100%;
+        height: 450px;
+    }
+
+    .about-mySwiper .about-swiperSlide img {
+        width: 100%;
+        height: 450px;
+    }
+
+
+    /* Customize navigation buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        font-size: 5px;
+        top: 50%;
+        transform: translateY(80%);
+    }
+
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: rgb(192, 26, 26);
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .about-mySwiper {
+        width: 80%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-mySwiper .about-swiperSlide {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-mySwiper .about-swiperSlide img {
+        width: 100%;
+        height: 400px;
+    }
+
+
+    /* Customize navigation buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        font-size: 5px;
         top: 50%;
         transform: translateY(80%);
     }

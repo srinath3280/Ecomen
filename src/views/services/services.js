@@ -47,23 +47,23 @@ const Services = () => {
                 <div className='services-content'>
                     <div className='services-content-image' data-direction="top" ref={el => ServiceRefs.current[0] = el}>
                         <img src='/images/services/Environment-Consulting-updated.jpg' alt='' />
-                        <a href='/'>Environment <br /> Consulting</a>
+                        <a href='/environmental-consulting'>Environment <br /> Consulting</a>
                     </div>
                     <div className='services-content-image' data-direction="right" ref={el => ServiceRefs.current[1] = el}>
                         <img src='/images/services/Enviroment-Monitoring.jpg' alt='' />
-                        <a href='/'>Environment <br /> Monitoring</a>
+                        <a href='/environment-monitoring'>Environment <br /> Monitoring</a>
                     </div>
                     <div className='services-content-image' data-direction="bottom" ref={el => ServiceRefs.current[2] = el}>
                         <img src='/images/services/Mining-Services-scaled.jpg' alt='' />
-                        <a href='/'>Mining <br /> Services</a>
+                        <a href='/mining-services'>Mining <br /> Services</a>
                     </div>
                     <div className='services-content-image' data-direction="left" ref={el => ServiceRefs.current[3] = el}>
                         <img src='/images/services/Ecomen-Services.jpg' alt='' />
-                        <a href='/'>Forestry <br /> Services</a>
+                        <a href='/forest-services'>Forestry <br /> Services</a>
                     </div>
-                    <div className='services-content-image' data-direction="right" ref={el => ServiceRefs.current[4] = el}>
+                    <div className='services-content-image' data-direction="bottom" ref={el => ServiceRefs.current[4] = el}>
                         <img src='/images/services/Laboratory-Services-scaled.jpg' alt='' />
-                        <a href='/'>Laboratory <br /> Services</a>
+                        <a href='/laboratory'>Laboratory <br /> Services</a>
                     </div>
                 </div>
             </section>

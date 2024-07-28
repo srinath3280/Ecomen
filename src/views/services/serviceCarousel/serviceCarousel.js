@@ -19,8 +19,16 @@ const ServiceCarousel = () => {
                 spaceBetween={10}
                 loop={true}
                 breakpoints={{
-                    640: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 5,
+                    },
+                    480: {
                         slidesPerView: 2,
+                        spaceBetween: 5,
+                    },
+                    640: {
+                        slidesPerView: 3,
                         spaceBetween: 20,
                     },
                     768: {

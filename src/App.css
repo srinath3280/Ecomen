@@ -1,21 +1,31 @@
 @media (min-width: 1281px) {
   .App-headerSection {
     width: 80%;
-    height: 75px;
+    height: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 10px 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -25px;
+  }
+
+  .App-headerSection-logo {
+    width: 20%;
+    height: auto;
   }
 
   .App-headerSection-logo img {
-    width: 150px;
+    width: 75%;
     height: 50px;
     margin: 0px 25px;
+  }
+
+  .App-headerSection-phonelink {
+    width: 20%;
+    height: auto;
   }
 
   .App-headerSection-phonelink a {
@@ -35,19 +45,24 @@
   }
 
   .App-headerSection-phonelink a i {
-    font-size: 20px;
-    padding: 0px 10px;
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
     color: gray;
   }
 
   .App-headerSection-phonelink a div span {
-    font-size: 14px;
+    font-size: 13px;
     color: black;
   }
 
   .App-headerSection-phonelink a div text {
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
+  }
+
+  .App-headerSection-maillink {
+    width: 15%;
+    height: auto;
   }
 
   .App-headerSection-maillink a {
@@ -67,19 +82,24 @@
   }
 
   .App-headerSection-maillink a i {
-    font-size: 20px;
-    padding: 0px 10px;
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
     color: gray;
   }
 
   .App-headerSection-maillink a div span {
-    font-size: 14px;
+    font-size: 13px;
     color: black;
   }
 
   .App-headerSection-maillink a div text {
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
+  }
+
+  .App-headerSection-locationlink {
+    width: 35%;
+    height: auto;
   }
 
   .App-headerSection-locationlink a {
@@ -99,18 +119,18 @@
   }
 
   .App-headerSection-locationlink a i {
-    font-size: 20px;
-    padding: 0px 10px;
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
     color: gray;
   }
 
   .App-headerSection-locationlink a div span {
-    font-size: 14px;
+    font-size: 13px;
     color: black;
   }
 
   .App-headerSection-locationlink a div text {
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
   }
 
@@ -119,4 +139,441 @@
     border: 1px solid rgb(230, 227, 227);
     margin: 7px 10px 0px;
   }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .App-headerSection {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .App-headerSection-logo {
+    width: 20%;
+    height: auto;
+  }
+
+  .App-headerSection-logo img {
+    width: 75%;
+    height: 50px;
+    margin: 0px ;
+  }
+
+  .App-headerSection-phonelink {
+    width: 20%;
+    height: auto;
+  }
+
+  .App-headerSection-phonelink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-phonelink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-phonelink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-phonelink a div span {
+    font-size: 13px;
+    color: black;
+  }
+
+  .App-headerSection-phonelink a div text {
+    font-size: 13px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink {
+    width: 15%;
+    height: auto;
+  }
+
+  .App-headerSection-maillink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-maillink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-maillink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink a div span {
+    font-size: 13px;
+    color: black;
+  }
+
+  .App-headerSection-maillink a div text {
+    font-size: 13px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink {
+    width: 35%;
+    height: auto;
+  }
+
+  .App-headerSection-locationlink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-locationlink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-locationlink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink a div span {
+    font-size: 13px;
+    color: black;
+  }
+
+  .App-headerSection-locationlink a div text {
+    font-size: 13px;
+    color: gray;
+  }
+
+  .App-headerSection-divideline {
+    height: 50px;
+    border: 1px solid rgb(230, 227, 227);
+    margin: 7px 10px 0px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .App-headerSection {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .App-headerSection-logo {
+    width: 15%;
+    height: auto;
+  }
+
+  .App-headerSection-logo img {
+    width: 90%;
+    height: 50px;
+    margin: 0px ;
+  }
+
+  .App-headerSection-phonelink {
+    width: 25%;
+    height: auto;
+  }
+
+  .App-headerSection-phonelink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-phonelink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-phonelink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-phonelink a div span {
+    font-size: 12px;
+    color: black;
+  }
+
+  .App-headerSection-phonelink a div text {
+    font-size: 12px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink {
+    width: 20%;
+    height: auto;
+  }
+
+  .App-headerSection-maillink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-maillink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-maillink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink a div span {
+    font-size: 12px;
+    color: black;
+  }
+
+  .App-headerSection-maillink a div text {
+    font-size: 12px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink {
+    width: 30%;
+    height: auto;
+  }
+
+  .App-headerSection-locationlink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-locationlink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-locationlink a i {
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink a div span {
+    font-size: 12px;
+    color: black;
+  }
+
+  .App-headerSection-locationlink a div text {
+    font-size: 12px;
+    color: gray;
+  }
+
+  .App-headerSection-divideline {
+    height: 50px;
+    border: 1px solid rgb(230, 227, 227);
+    margin: 7px 10px 0px;
+  }
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .App-headerSection {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .App-headerSection-logo {
+    width: 45%;
+    height: auto;
+  }
+
+  .App-headerSection-logo img {
+    width: 50%;
+    height: 50px;
+    margin: 0px ;
+  }
+
+  .App-headerSection-phonelink {
+    width: 45%;
+    height: auto;
+  }
+
+  .App-headerSection-phonelink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-phonelink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-phonelink a i {
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-phonelink a div span {
+    font-size: 11px;
+    color: black;
+  }
+
+  .App-headerSection-phonelink a div text {
+    font-size: 11px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink {
+    width: 45%;
+    height: auto;
+  }
+
+  .App-headerSection-maillink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-maillink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-maillink a i {
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-maillink a div span {
+    font-size: 11px;
+    color: black;
+  }
+
+  .App-headerSection-maillink a div text {
+    font-size: 11px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink {
+    width: 45%;
+    height: auto;
+  }
+
+  .App-headerSection-locationlink a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+
+  }
+
+  .App-headerSection-locationlink a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .App-headerSection-locationlink a i {
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+    color: gray;
+  }
+
+  .App-headerSection-locationlink a div span {
+    font-size: 11px;
+    color: black;
+  }
+
+  .App-headerSection-locationlink a div text {
+    font-size: 11px;
+    color: gray;
+  }
+
+  /* .App-headerSection-divideline {
+    height: 50px;
+    border: 1px solid rgb(230, 227, 227);
+    margin: 7px 10px 0px;
+  } */
 }

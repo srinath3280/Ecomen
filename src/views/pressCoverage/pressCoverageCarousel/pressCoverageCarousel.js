@@ -19,6 +19,14 @@ const PressCoverageCarousel = () => {
                 spaceBetween={10}
                 loop={true}
                 breakpoints={{
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
+                    480: {
+                        slidesPerView: 1,
+                        spaceBetween: 0,
+                    },
                     640: {
                         slidesPerView: 1,
                         spaceBetween: 20,

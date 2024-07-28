@@ -1,5 +1,5 @@
 @media (min-width: 1281px) {
-    /* Research and Training Centre */
+    /* Group Vocational Training Centre */
 
     .researchTraining {
         width: 100%;
@@ -56,10 +56,11 @@
     }
 
 
-    .researchTraining-videogroup{
+    .researchTraining-videogroup {
         margin: 20px auto;
     }
-    .researchTraining-videos{
+
+    .researchTraining-videos {
         width: 80%;
         height: auto;
         display: flex;
@@ -67,18 +68,20 @@
         flex-wrap: wrap;
         margin: 50px auto;
     }
-    .researchTraining-videos-left{
+
+    .researchTraining-videos-left {
         width: 50%;
         height: 300px;
     }
-    .researchTraining-videos-right{
+
+    .researchTraining-videos-right {
         width: 50%;
         height: 300px;
     }
 
     /* Video Playing */
     .researchTraining-video-placeholder {
-        width: 500px;
+        width: 95%;
         height: 275px;
         position: relative;
         margin: 0px;
@@ -123,13 +126,439 @@
     }
 
     .researchTraining-video-player iframe {
-        width: 500px;
+        width: 95%;
         height: 275px;
     }
 
 
     /* Carousel */
-    .researchTraining-carousel{
+    .researchTraining-carousel {
         margin: 0px 0px 50px;
     }
 }
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    /* Group Vocational Training Centre */
+
+    .researchTraining {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .researchTraining-heading {
+        margin: 50px 0px;
+    }
+
+    .researchTraining-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .researchTraining-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .researchTraining-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .researchTraining-content-left img {
+        width: 90%;
+        height: 450px;
+    }
+
+    .researchTraining-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .researchTraining-content-right p {
+        font-size: 15px;
+        color: #212529;
+        text-align: justify;
+        font-family: "Muli", Sans-serif;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+    }
+
+
+    .researchTraining-videogroup {
+        margin: 20px auto;
+    }
+
+    .researchTraining-videos {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+
+    .researchTraining-videos-left {
+        width: 50%;
+        height: 300px;
+    }
+
+    .researchTraining-videos-right {
+        width: 50%;
+        height: 300px;
+    }
+
+    /* Video Playing */
+    .researchTraining-video-placeholder {
+        width: 95%;
+        height: 275px;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .researchTraining-video-thumbnail {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .researchTraining-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 68px;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    .researchTraining-video-title {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .researchTraining-video-player {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .researchTraining-video-player iframe {
+        width: 95%;
+        height: 225px;
+    }
+
+
+    /* Carousel */
+    .researchTraining-carousel {
+        margin: 0px 0px 50px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Group Vocational Training Centre */
+
+    .researchTraining {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .researchTraining-heading {
+        margin: 50px 0px;
+    }
+
+    .researchTraining-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .researchTraining-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .researchTraining-content-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .researchTraining-content-left img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .researchTraining-content-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .researchTraining-content-right p {
+        font-size: 14px;
+        color: #212529;
+        text-align: justify;
+        font-family: "Muli", Sans-serif;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+    }
+
+
+    .researchTraining-videogroup {
+        margin: 20px auto;
+    }
+
+    .researchTraining-videos {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+
+    .researchTraining-videos-left {
+        width: 100%;
+        height: 300px;
+    }
+
+    .researchTraining-videos-right {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Video Playing */
+    .researchTraining-video-placeholder {
+        width: 95%;
+        height: 275px;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .researchTraining-video-thumbnail {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .researchTraining-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 68px;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    .researchTraining-video-title {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .researchTraining-video-player {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .researchTraining-video-player iframe {
+        width: 95%;
+        height: 250px;
+    }
+
+
+    /* Carousel */
+    .researchTraining-carousel {
+        margin: 0px 0px 50px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    /* Group Vocational Training Centre */
+
+    .researchTraining {
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .researchTraining-heading {
+        margin: 50px 0px;
+    }
+
+    .researchTraining-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .researchTraining-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .researchTraining-content-left {
+        width: 100%;
+        height: auto;
+    }
+
+    .researchTraining-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .researchTraining-content-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .researchTraining-content-right p {
+        font-size: 12px;
+        color: #212529;
+        text-align: justify;
+        font-family: "Muli", Sans-serif;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+    }
+
+
+    .researchTraining-videogroup {
+        margin: 20px auto;
+    }
+
+    .researchTraining-videos {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+
+    .researchTraining-videos-left {
+        width: 100%;
+        height: 250px;
+    }
+
+    .researchTraining-videos-right {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Video Playing */
+    .researchTraining-video-placeholder {
+        width: 95%;
+        height: 200px;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .researchTraining-video-thumbnail {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .researchTraining-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 68px;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    .researchTraining-video-title {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .researchTraining-video-player {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .researchTraining-video-player iframe {
+        width: 95%;
+        height: 200px;
+    }
+
+
+    /* Carousel */
+    .researchTraining-carousel {
+        margin: 0px 0px 50px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+

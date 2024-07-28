@@ -107,4 +107,479 @@
         font-size: 13px;
         color: #61CE70;
     }
+
+    .Footer-bottom-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px;
+    }
+
+    .Footer-bottom-right div {
+        width: 50px;
+        height: 50px;
+        background-color: #333232;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    .Footer-bottom-right div a {
+        text-align: center;
+    }
+
+    .Footer-bottom-right div a .bi-youtube {
+        font-size: 25px;
+        line-height: 50px;
+        color: red;
+        margin-left: 12.5px;
+    }
+    .Footer-bottom-right div a .bi-linkedin {
+        font-size: 25px;
+        line-height: 50px;
+        color: rgb(0, 60, 255);
+        margin-left: 12.5px;
+    }
 }
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* Tablets and small desktops */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .Footer-top {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        background-image: url('../../../public/images/home/footer_img.jpg');
+    }
+
+    .Footer-bottom {
+        width: 100%;
+        height: 75px;
+        background-color: #101010;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Footer-top-left {
+        width: 33%;
+        height: auto;
+        padding: 25px 0px 10px 100px;
+    }
+
+    .Footer-top-right {
+        width: 33%;
+        height: auto;
+    }
+
+    .Footer-top-left h2 {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .Footer-top-left p {
+        font-size: 13px;
+        color: #FFFFFF;
+        line-height: 25px;
+    }
+
+    .Footer-top-left img {
+        width: 150px;
+        height: 50px;
+    }
+
+    .Footer-top-right h2 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #fff;
+        padding: 15px 0px 0px;
+    }
+
+    .Footer-top-right-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0px 100px 0px 0px;
+        margin: 0;
+    }
+
+    .Footer-top-right-links li {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+    }
+
+    .Footer-top-right-links a {
+        display: flex;
+        align-items: center;
+        padding: 15px 0px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 13px;
+        transition: all 0.5s;
+    }
+
+    .Footer-top-right-links i {
+        margin-right: 5px;
+    }
+
+    .Footer-top-right-links a:hover {
+        color: #61CE70;
+        margin-left: 10px;
+    }
+
+    .Footer-bottom-left p {
+        font-size: 13px;
+        color: #FFFFFF;
+        padding: 0px 100px;
+    }
+
+    .Footer-bottom-left p a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #61CE70;
+    }
+
+
+    .Footer-bottom-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px;
+    }
+
+    .Footer-bottom-right div {
+        width: 40px;
+        height: 40px;
+        background-color: #333232;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    .Footer-bottom-right div a {
+        text-align: center;
+    }
+
+    .Footer-bottom-right div a .bi-youtube {
+        font-size: 20px;
+        line-height: 40px;
+        color: red;
+        margin-left: 10px;
+    }
+    .Footer-bottom-right div a .bi-linkedin {
+        font-size: 20px;
+        line-height: 40px;
+        color: rgb(0, 60, 255);
+        margin-left: 10px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* Tablets and small desktops */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .Footer-top {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        background-image: url('../../../public/images/home/footer_img.jpg');
+    }
+
+    .Footer-bottom {
+        width: 100%;
+        height: 75px;
+        background-color: #101010;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Footer-top-left {
+        width: 33%;
+        height: auto;
+        padding: 25px 0px 10px 100px;
+    }
+
+    .Footer-top-right {
+        width: 33%;
+        height: auto;
+    }
+
+    .Footer-top-left h2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .Footer-top-left p {
+        font-size: 12px;
+        color: #FFFFFF;
+        line-height: 25px;
+    }
+
+    .Footer-top-left img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .Footer-top-right h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        padding: 15px 0px 0px;
+    }
+
+    .Footer-top-right-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0px 25px 0px 0px;
+        margin: 0;
+    }
+
+    .Footer-top-right-links li {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+    }
+
+    .Footer-top-right-links a {
+        display: flex;
+        align-items: center;
+        padding: 15px 0px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+
+    .Footer-top-right-links i {
+        margin-right: 5px;
+    }
+
+    .Footer-top-right-links a:hover {
+        color: #61CE70;
+        margin-left: 10px;
+    }
+
+    .Footer-bottom-left p {
+        font-size: 12px;
+        color: #FFFFFF;
+        padding: 0px 50px 0px 100px;
+    }
+
+    .Footer-bottom-left p a {
+        text-decoration: none;
+        font-size: 10px;
+        color: #61CE70;
+    }
+
+
+    .Footer-bottom-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px 0px 50px;
+    }
+
+    .Footer-bottom-right div {
+        width: 30px;
+        height: 30px;
+        background-color: #333232;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    .Footer-bottom-right div a {
+        text-align: center;
+    }
+
+    .Footer-bottom-right div a .bi-youtube {
+        font-size: 15px;
+        line-height: 30px;
+        color: red;
+        margin-left: 7.5px;
+    }
+    .Footer-bottom-right div a .bi-linkedin {
+        font-size: 15px;
+        line-height: 30px;
+        color: rgb(0, 60, 255);
+        margin-left: 7.5px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* Small devices */
+@media (min-width: 480px) and (max-width: 767px) {
+    .Footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .Footer-top {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-image: url('../../../public/images/home/footer_img.jpg');
+    }
+
+    .Footer-bottom {
+        width: 100%;
+        height: auto;
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Footer-top-left {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .Footer-top-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .Footer-top-left h2 {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .Footer-top-left p {
+        font-size: 10px;
+        color: #FFFFFF;
+        line-height: 25px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .Footer-top-left img {
+        width: 100px;
+        height: 50px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .Footer-top-right h2 {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        padding: 5px 0px 0px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .Footer-top-right-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0px 25px 0px 0px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .Footer-top-right-links li {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+    }
+
+    .Footer-top-right-links a {
+        display: flex;
+        align-items: center;
+        padding: 5px 0px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 10px;
+        transition: all 0.5s;
+    }
+
+    .Footer-top-right-links i {
+        margin-right: 5px;
+    }
+
+    .Footer-top-right-links a:hover {
+        color: #61CE70;
+        margin-left: 5px;
+    }
+
+    .Footer-bottom-left p {
+        font-size: 9px;
+        color: #FFFFFF;
+        padding: 0px 50px;
+    }
+
+    .Footer-bottom-left p a {
+        text-decoration: none;
+        font-size: 8px;
+        color: #61CE70;
+    }
+
+
+    .Footer-bottom-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px;
+    }
+
+    .Footer-bottom-right div {
+        width: 30px;
+        height: 30px;
+        background-color: #333232;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    .Footer-bottom-right div a {
+        text-align: center;
+    }
+
+    .Footer-bottom-right div a .bi-youtube {
+        font-size: 15px;
+        line-height: 30px;
+        color: red;
+        margin-left: 7.5px;
+    }
+    .Footer-bottom-right div a .bi-linkedin {
+        font-size: 15px;
+        line-height: 30px;
+        color: rgb(0, 60, 255);
+        margin-left: 7.5px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */

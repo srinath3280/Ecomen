@@ -41,7 +41,7 @@ const ResearchTraining = () => {
                             ) : (
                                 <div className="researchTraining-video-player">
                                     <iframe
-                                        src="https://www.youtube.com/embed/XHOmBV4js_E"
+                                        src="https://www.youtube.com/embed/fI6NPiMiaRM"
                                         title="YouTube video player"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -63,7 +63,7 @@ const ResearchTraining = () => {
                             ) : (
                                 <div className="researchTraining-video-player">
                                     <iframe
-                                        src="https://www.youtube.com/embed/XHOmBV4js_E"
+                                        src="https://www.youtube.com/embed/kn645EhWIr4"
                                         title="YouTube video player"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

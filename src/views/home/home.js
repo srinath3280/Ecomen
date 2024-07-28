@@ -3,7 +3,6 @@ import './home.css';
 import HomeCarousel from './carousel/carousel';
 import ProjectCarousel from './project-carousel/projectCarousel';
 import ClientCarousel from './client-carousel/clientCarousel';
-import './homeScript.js';
 
 const Home = () => {
 
@@ -141,7 +140,9 @@ const Home = () => {
     return (
         <div className='home'>
             {/* Carousel Section */}
-            <HomeCarousel></HomeCarousel>
+            <div>
+                <HomeCarousel></HomeCarousel>
+            </div>
 
             {/* Info Section */}
             <section className='home-info'>
@@ -238,7 +239,6 @@ const Home = () => {
             {/* Accreditations and Awards */}
             <section className='home-accreditation'>
                 <div className='home-accreditation-content'>
-                    {/* <img src='/images/home/Awards-strip-scaled.jpg' alt='' /> */}
                     <div className='home-accreditation-content-image'>
                         <div className='home-accreditation-content-image-left' data-direction="right" ref={el => AccreditationRefs.current[0] = el}>
                             <h1>Accreditations and Awards</h1>

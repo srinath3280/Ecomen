@@ -1,0 +1,508 @@
+@media (min-width: 1281px) {
+    .mineAudit {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-heading {
+        margin: 50px 0px;
+    }
+
+    .mineAudit-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .mineAudit-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .mineAudit-content-left img {
+        width: 90%;
+        height: 200px;
+    }
+
+    .mineAudit-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .mineAudit-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .mineAudit-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .mineAudit-study-heading {
+        margin: 25px 0px;
+    }
+
+    .mineAudit-study-heading p {
+        font-size: 17px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .mineAudit-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-study-list ul li {
+        width: 45%;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px;
+    }
+
+    .mineAudit-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .mineAudit-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .mineAudit-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .mineAudit {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-heading {
+        margin: 50px 0px;
+    }
+
+    .mineAudit-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .mineAudit-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .mineAudit-content-left img {
+        width: 90%;
+        height: 200px;
+    }
+
+    .mineAudit-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .mineAudit-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .mineAudit-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .mineAudit-study-heading {
+        margin: 25px 0px;
+    }
+
+    .mineAudit-study-heading p {
+        font-size: 17px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .mineAudit-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-study-list ul li {
+        width: 45%;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px;
+    }
+
+    .mineAudit-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .mineAudit-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .mineAudit-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .mineAudit {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-heading {
+        margin: 50px 0px;
+    }
+
+    .mineAudit-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .mineAudit-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .mineAudit-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .mineAudit-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .mineAudit-content-right p {
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .mineAudit-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .mineAudit-study-heading {
+        margin: 25px 0px;
+    }
+
+    .mineAudit-study-heading p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .mineAudit-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-study-list ul li {
+        width: 80%;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px 0px;
+    }
+
+    .mineAudit-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .mineAudit-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .mineAudit-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .mineAudit {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-heading {
+        margin: 50px 0px;
+    }
+
+    .mineAudit-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .mineAudit-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .mineAudit-content-left img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .mineAudit-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .mineAudit-content-right p {
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .mineAudit-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .mineAudit-study-heading {
+        margin: 25px 0px;
+    }
+
+    .mineAudit-study-heading p {
+        font-size: 12px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .mineAudit-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .mineAudit-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mineAudit-study-list ul li {
+        width: 80%;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 10px 0px;
+    }
+
+    .mineAudit-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .mineAudit-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 10px 15px;
+        transition: 0.5s;
+    }
+
+    .mineAudit-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

@@ -18,59 +18,59 @@ const NABETSector = () => {
                 <div className='nabetSector-content'>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Mining-of-minerals.jpg' alt='' />
-                        <a href='/'>Mining Of Minerals</a>
+                        <a href='/mining-of-minerals'>Mining Of Minerals</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Thermal-power-plants.jpg' alt='' />
-                        <a href='/'>Thermal Power Plants</a>
+                        <a href='/thermal-power-plants'>Thermal Power Plants</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Asbestos.jpg' alt='' />
-                        <a href='/'>Asbestos Mining and Asbestos Based Products</a>
+                        <a href='/asbestos-mining-and-asbestos-based-products'>Asbestos Mining and Asbestos Based Products</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/mettalurgical.jpg' alt='' />
-                        <a href='/'>Metallurgical industries (ferrous & non-ferrous)</a>
+                        <a href='/metallurgical-industries'>Metallurgical industries (ferrous & non-ferrous)</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Mineral-benefication.jpg' alt='' />
-                        <a href='/'>Mineral Benefication and Palletisation</a>
+                        <a href='/mineral-beneficiation-including-pelletisation'>Mineral Benefication and Palletisation</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Cement-Plants.jpg' alt='' />
-                        <a href='/'>Cement Plants</a>
+                        <a href='/cement-plants'>Cement Plants</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Sugar-Industry.jpg' alt='' />
-                        <a href='/'>Sugar Industries</a>
+                        <a href='/sugar-industries'>Sugar Industries</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Synthetic-Organic-Chemicals.jpg' alt='' />
-                        <a href='/'>Synthetic organic chemicals industry Sector</a>
+                        <a href='/synthetic-organic-chemicals-industry'>Synthetic organic chemicals industry Sector</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Building-and-Construction.jpg' alt='' />
-                        <a href='/'>Building and Construction Projects</a>
+                        <a href='/building-and-construction-projects'>Building and Construction Projects</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Distilleries.jpg' alt='' />
-                        <a href='/'>Distilleries</a>
+                        <a href='/distilleries'>Distilleries</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Townships.jpg' alt='' />
-                        <a href='/'>Townships and Area development projects</a>
+                        <a href='/townships-and-area-development-projects'>Townships and Area development projects</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Isolated-Storage.jpg' alt='' />
-                        <a href='/'>Isolated storage & handling of hazardous chemicals</a>
+                        <a href='/isolated-storage--handling-of-hazardous-chemicals'>Isolated storage & handling of hazardous chemicals</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/Ports-and-harbours.jpg' alt='' />
-                        <a href='/'>Ports, Harbours, Break Waters & Dredging</a>
+                        <a href='/ports-harbours-break-waters-and-dredging'>Ports, Harbours, Break Waters & Dredging</a>
                     </div>
                     <div className='nabetSector-content-image'>
                         <img src='/images/nabetSector/highways.jpg' alt='' />
-                        <a href='/'>Highways</a>
+                        <a href='/highways'>Highways</a>
                     </div>
                 </div>
             </section>

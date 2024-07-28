@@ -1,0 +1,498 @@
+@media (min-width: 1281px) {
+    .enivronmentConsulting {
+        width: 100%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-text {
+        width: 80%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .enivronmentConsulting-text p {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-content-left {
+        width: 50%;
+        height: auto;
+    }
+    .enivronmentConsulting-content-left img {
+        width: 95%;
+        height: 250px;
+    }
+
+    .enivronmentConsulting-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+    /* Service Offerings */
+    .enivronmentConsulting-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .enivronmentConsulting-services-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-services-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-services-list div {
+        width: 20%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .enivronmentConsulting-services-list div img{
+        width: 90%;
+        height: 150px;
+    }
+    .enivronmentConsulting-services-list div a{
+        width: 90%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .enivronmentConsulting {
+        width: 100%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-text {
+        width: 80%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .enivronmentConsulting-text p {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-content-left {
+        width: 50%;
+        height: auto;
+    }
+    .enivronmentConsulting-content-left img {
+        width: 95%;
+        height: 250px;
+    }
+
+    .enivronmentConsulting-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+    /* Service Offerings */
+    .enivronmentConsulting-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .enivronmentConsulting-services-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-services-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-services-list div {
+        width: 20%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .enivronmentConsulting-services-list div img{
+        width: 90%;
+        height: 150px;
+    }
+    .enivronmentConsulting-services-list div a{
+        width: 90%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .enivronmentConsulting {
+        width: 100%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-text {
+        width: 65%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .enivronmentConsulting-text p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .enivronmentConsulting-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .enivronmentConsulting-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .enivronmentConsulting-content-right p {
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+    /* Service Offerings */
+    .enivronmentConsulting-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .enivronmentConsulting-services-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-services-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-services-list div {
+        width: 30%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .enivronmentConsulting-services-list div img{
+        width: 90%;
+        height: 150px;
+    }
+    .enivronmentConsulting-services-list div a{
+        width: 90%;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .enivronmentConsulting {
+        width: 100%;
+        height: auto;
+    }
+
+    .enivronmentConsulting-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-text {
+        width: 65%;
+        height: auto;
+        margin: 50px auto;
+    }
+
+    .enivronmentConsulting-text p {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+    .enivronmentConsulting-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .enivronmentConsulting-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .enivronmentConsulting-content-right p {
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+
+    /* Service Offerings */
+    .enivronmentConsulting-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .enivronmentConsulting-services-heading {
+        margin: 50px 0px;
+    }
+
+    .enivronmentConsulting-services-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .enivronmentConsulting-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .enivronmentConsulting-services-list div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .enivronmentConsulting-services-list div img{
+        width: 90%;
+        height: 150px;
+    }
+    .enivronmentConsulting-services-list div a{
+        width: 90%;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

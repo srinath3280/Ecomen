@@ -3,4 +3,71 @@
         width: 80%;
         height: 200px;
     }
+    .client-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .client-mySwiper-slides{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .client-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .client-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .client-mySwiper-slides{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .client-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .client-mySwiper-slides{
+        width: 20%;
+        height: 150px;
+    }
+    .client-mySwiper-slides img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .client-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
+    .client-mySwiper-slides{
+        width: 20%;
+        height: 100px;
+    }
+    .client-mySwiper-slides img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 320px) and (max-width: 479px) {
+    .client-mySwiper {
+        width: 80%;
+        height: 200px;
+    }
 }

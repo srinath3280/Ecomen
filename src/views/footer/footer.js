@@ -9,8 +9,8 @@ const Footer = () => {
           <img src='/images/Ecomen-Logo.png' alt='' />
           <h2>Head Office</h2>
           <p>
-            Ecomen Laboratories Pvt. Ltd <br/>
-            B-1/2, 2nd floor, Sector-H, Aliganj, <br/>
+            Ecomen Laboratories Pvt. Ltd <br />
+            B-1/2, 2nd floor, Sector-H, Aliganj, <br />
             Lucknow – 226024, U.P. India
           </p>
         </div>
@@ -43,6 +43,14 @@ const Footer = () => {
       <div className='Footer-bottom'>
         <div className='Footer-bottom-left'>
           <p>Copyright © 2023 <a href='/'>ECOMEN LABORATORIES PVT. LTD.</a> All Right Reserved.</p>
+        </div>
+        <div className='Footer-bottom-right'>
+          <div>
+            <a href='https://www.youtube.com/@EcomenLaboratories' rel="noreferrer" target="_blank"><i class="bi bi-youtube"></i></a>
+          </div>
+          <div>
+            <a href='https://www.linkedin.com/company/ecomen-laboratories' rel="noreferrer" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
       </div>
     </div>

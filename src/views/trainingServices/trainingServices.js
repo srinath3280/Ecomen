@@ -10,6 +10,7 @@ const TrainingServices = () => {
                 <div className='trainingServices-heading'>
                     <h1>Our Training Services</h1>
                 </div>
+                {/* <div className='trainingServices-divideline'></div> */}
                 <div className='trainingServices-content'>
                     <div className='trainingServices-content-image'>
                         <img src='/images/trainingServices/GVTC-Outside-300x247.jpg' alt='' />
@@ -20,6 +21,7 @@ const TrainingServices = () => {
                         <a href='/research-and-training-centre'>Research and Training Centre</a>
                     </div>
                 </div>
+                {/* <div className='trainingServices-divideline'></div> */}
             </section>
         </div>
     )

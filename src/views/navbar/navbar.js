@@ -21,6 +21,14 @@ function Navbar() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+
+    // For mobile view
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <div>
             {/* Navbar Section */}
@@ -52,6 +60,42 @@ function Navbar() {
                     </li>
                     <li>
                         <a href="/contact" className={location.pathname === '/contact' ? 'active' : ''}>CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+
+            {/* For Mobile View */}
+            <nav className={`navbar1 ${scrolled ? 'scrolled1' : ''}`}>
+                <div className="hamburger" onClick={toggleMobileMenu}>
+                    <i class="bi bi-list"></i>
+                </div>
+                <ul className={isMobileMenuOpen ? 'open' : ''}>
+                    <li>
+                        <a href="/">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/about-us">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="/our-services">SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="/laboratory">LABORATORY</a>
+                    </li>
+                    <li>
+                        <a href="/training-services">TRAINING SERVICES</a>
+                    </li>
+                    <li>
+                        <a href="/service-sectors">NABET SECTORS</a>
+                    </li>
+                    <li>
+                        <a href="/accreditation-awards">ACCREDITATION & AWARDS</a>
+                    </li>
+                    <li>
+                        <a href="/press-coverage-events">PRESS COVERAGE & EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="/contact">CONTACT US</a>
                     </li>
                 </ul>
             </nav>

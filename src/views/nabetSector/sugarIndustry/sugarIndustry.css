@@ -1,0 +1,984 @@
+@media (min-width: 1281px) {
+    .sugarIndustry {
+        width: 100%;
+        height: auto;
+    }
+
+    .sugarIndustry-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .sugarIndustry-content-left img {
+        width: 90%;
+        height: 400px;
+    }
+
+    .sugarIndustry-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .sugarIndustry-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sugarIndustry-text {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-text p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* Service Offerings */
+    .sugarIndustry-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .sugarIndustry-services-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-services-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-services-list div {
+        width: 25%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sugarIndustry-services-list div img {
+        width: 90%;
+        height: 150px;
+    }
+
+    .sugarIndustry-services-list div a {
+        width: 90%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+
+    /* Projects */
+    .sugarIndustry-projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sugarIndustry-projects-completed {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Project-Clearance-sevices2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-completed div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-completed div h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-completed div a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    .sugarIndustry-projects-ongoing {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Site-specific-services.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-ongoing div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-ongoing div h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-ongoing div a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    /* Carousel */
+    .sugarIndustry-carousel {
+        margin: 100px 0px;
+    }
+
+    /* Button */
+    .sugarIndustry-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .sugarIndustry-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .sugarIndustry-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .sugarIndustry {
+        width: 100%;
+        height: auto;
+    }
+
+    .sugarIndustry-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .sugarIndustry-content-left img {
+        width: 90%;
+        height: 400px;
+    }
+
+    .sugarIndustry-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .sugarIndustry-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sugarIndustry-text {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-text p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* Service Offerings */
+    .sugarIndustry-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .sugarIndustry-services-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-services-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-services-list div {
+        width: 25%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sugarIndustry-services-list div img {
+        width: 90%;
+        height: 150px;
+    }
+
+    .sugarIndustry-services-list div a {
+        width: 90%;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+
+    /* Projects */
+    .sugarIndustry-projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sugarIndustry-projects-completed {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Project-Clearance-sevices2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-completed div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-completed div h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-completed div a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    .sugarIndustry-projects-ongoing {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Site-specific-services.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-ongoing div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-ongoing div h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-ongoing div a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    /* Carousel */
+    .sugarIndustry-carousel {
+        margin: 100px 0px;
+    }
+
+    /* Button */
+    .sugarIndustry-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .sugarIndustry-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .sugarIndustry-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sugarIndustry {
+        width: 100%;
+        height: auto;
+    }
+
+    .sugarIndustry-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .sugarIndustry-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-content-right p {
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sugarIndustry-text {
+        width: 65%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-text p {
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* Service Offerings */
+    .sugarIndustry-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .sugarIndustry-services-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-services-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-services-list div {
+        width: 25%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sugarIndustry-services-list div img {
+        width: 90%;
+        height: 150px;
+    }
+
+    .sugarIndustry-services-list div a {
+        width: 90%;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+
+    /* Projects */
+    .sugarIndustry-projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sugarIndustry-projects-completed {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Project-Clearance-sevices2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-completed div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-completed div h3 {
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-completed div a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    .sugarIndustry-projects-ongoing {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Site-specific-services.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-ongoing div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-ongoing div h3 {
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-ongoing div a {
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        background-color: #81D742;
+        padding: 10px 20px;
+    }
+
+    /* Carousel */
+    .sugarIndustry-carousel {
+        margin: 50px 0px;
+    }
+
+    /* Button */
+    .sugarIndustry-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .sugarIndustry-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .sugarIndustry-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .sugarIndustry {
+        width: 100%;
+        height: auto;
+    }
+
+    .sugarIndustry-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-content-left img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .sugarIndustry-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-content-right p {
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    .sugarIndustry-text {
+        width: 65%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .sugarIndustry-text p {
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    /* Service Offerings */
+    .sugarIndustry-services {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .sugarIndustry-services-heading {
+        margin: 50px 0px;
+    }
+
+    .sugarIndustry-services-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .sugarIndustry-services-list {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-services-list div {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .sugarIndustry-services-list div img {
+        width: 90%;
+        height: 150px;
+    }
+
+    .sugarIndustry-services-list div a {
+        width: 90%;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: "Open Sans", Sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #212829;
+    }
+
+    /* Projects */
+    .sugarIndustry-projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sugarIndustry-projects-completed {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Project-Clearance-sevices2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-completed div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-completed div h3 {
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-completed div a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        background-color: #81D742;
+        padding: 5px 10px;
+    }
+
+    .sugarIndustry-projects-ongoing {
+        width: 50%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url('../../../../public/images/nabetSector/Site-specific-services.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sugarIndustry-projects-ongoing div {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sugarIndustry-projects-ongoing div h3 {
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .sugarIndustry-projects-ongoing div a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        background-color: #81D742;
+        padding: 5px 10px;
+    }
+
+    /* Carousel */
+    .sugarIndustry-carousel {
+        margin: 50px 0px;
+    }
+
+    /* Button */
+    .sugarIndustry-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .sugarIndustry-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .sugarIndustry-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+

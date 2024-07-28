@@ -1,0 +1,508 @@
+@media (min-width: 1281px) {
+    .soilTesting {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-heading {
+        margin: 50px 0px;
+    }
+
+    .soilTesting-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilTesting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .soilTesting-content-left img {
+        width: 90%;
+        height: 250px;
+    }
+
+    .soilTesting-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .soilTesting-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .soilTesting-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .soilTesting-study-heading {
+        margin: 25px 0px;
+    }
+
+    .soilTesting-study-heading p {
+        font-size: 17px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .soilTesting-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-study-list ul li {
+        width: 30%;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px 0px;
+    }
+
+    .soilTesting-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .soilTesting-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .soilTesting-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .soilTesting {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-heading {
+        margin: 50px 0px;
+    }
+
+    .soilTesting-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilTesting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-content-left {
+        width: 50%;
+        height: auto;
+    }
+
+    .soilTesting-content-left img {
+        width: 90%;
+        height: 250px;
+    }
+
+    .soilTesting-content-right {
+        width: 50%;
+        height: auto;
+    }
+
+    .soilTesting-content-right p {
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .soilTesting-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .soilTesting-study-heading {
+        margin: 25px 0px;
+    }
+
+    .soilTesting-study-heading p {
+        font-size: 17px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .soilTesting-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-study-list ul li {
+        width: 30%;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px 0px;
+    }
+
+    .soilTesting-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .soilTesting-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .soilTesting-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .soilTesting {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-heading {
+        margin: 50px 0px;
+    }
+
+    .soilTesting-heading h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilTesting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilTesting-content-left img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .soilTesting-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilTesting-content-right p {
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .soilTesting-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .soilTesting-study-heading {
+        margin: 25px 0px;
+    }
+
+    .soilTesting-study-heading p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .soilTesting-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-study-list ul li {
+        width: 30%;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px auto;
+    }
+
+    .soilTesting-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .soilTesting-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .soilTesting-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .soilTesting {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-heading {
+        margin: 50px 0px;
+    }
+
+    .soilTesting-heading h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+    }
+
+    .soilTesting-content {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-content-left {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilTesting-content-left img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .soilTesting-content-right {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .soilTesting-content-right p {
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+
+    /* Study */
+    .soilTesting-study {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 50px;
+    }
+
+    .soilTesting-study-heading {
+        margin: 25px 0px;
+    }
+
+    .soilTesting-study-heading p {
+        font-size: 12px;
+        font-weight: 600;
+        color: #282828;
+        text-align: center;
+    }
+
+    .soilTesting-study-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .soilTesting-study-list ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soilTesting-study-list ul li {
+        width: 50%;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Open Sans", Sans-serif;
+        color: #525c5e;
+        margin: 20px auto;
+    }
+
+    .soilTesting-buttons {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .soilTesting-buttons div a {
+        text-decoration: none;
+        color: #282828;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #81D742;
+        padding: 15px 30px;
+        transition: 0.5s;
+    }
+
+    .soilTesting-buttons div a:hover {
+        background-color: #7A5549;
+        color: #FFFFFF;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
