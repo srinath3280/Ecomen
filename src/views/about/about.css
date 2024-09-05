@@ -154,6 +154,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-1:hover {
@@ -177,6 +181,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-2:hover {
@@ -200,6 +208,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-3:hover {
@@ -234,6 +246,36 @@
     .about-expertise-buttons a:hover {
         background-color: #795549;
     }
+
+
+    /* AboutExpertise Animation */
+    .about-expertise-images-1[data-direction="top"] {
+        transform: translateY(-100%);
+    }
+
+    .about-expertise-images-2[data-direction="right"] {
+        transform: translateX(100%);
+    }
+
+    .about-expertise-images-3[data-direction="bottom"] {
+        transform: translateY(100%);
+    }
+
+    .about-expertise-images-1.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-2.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-3.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
 
     /* Board Of Directors */
 
@@ -698,6 +740,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-1:hover {
@@ -721,6 +767,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-2:hover {
@@ -744,6 +794,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-3:hover {
@@ -778,6 +832,36 @@
     .about-expertise-buttons a:hover {
         background-color: #795549;
     }
+
+
+    /* AboutExpertise Animation */
+    .about-expertise-images-1[data-direction="top"] {
+        transform: translateY(-100%);
+    }
+
+    .about-expertise-images-2[data-direction="right"] {
+        transform: translateX(100%);
+    }
+
+    .about-expertise-images-3[data-direction="bottom"] {
+        transform: translateY(100%);
+    }
+
+    .about-expertise-images-1.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-2.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-3.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
 
     /* Board Of Directors */
 
@@ -1246,6 +1330,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-1:hover {
@@ -1269,6 +1357,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-2:hover {
@@ -1292,6 +1384,10 @@
         align-items: center;
         text-align: center;
         transition: all 0.2s;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .about-expertise-images-3:hover {
@@ -1326,6 +1422,36 @@
     .about-expertise-buttons a:hover {
         background-color: #795549;
     }
+
+
+    /* AboutExpertise Animation */
+    .about-expertise-images-1[data-direction="top"] {
+        transform: translateY(-100%);
+    }
+
+    .about-expertise-images-2[data-direction="right"] {
+        transform: translateX(100%);
+    }
+
+    .about-expertise-images-3[data-direction="bottom"] {
+        transform: translateY(100%);
+    }
+
+    .about-expertise-images-1.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-2.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
+    .about-expertise-images-3.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+
 
     /* Board Of Directors */
 

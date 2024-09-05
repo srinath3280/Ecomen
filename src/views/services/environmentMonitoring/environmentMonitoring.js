@@ -1,7 +1,34 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './environmentMonitoring.css';
 
 const EnivronmentMonitoring = () => {
+
+    // Our Services Animation Start
+    const EMServiceRefs = useRef([]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const triggerBottom = window.innerHeight / 4 * 4;
+            EMServiceRefs.current.forEach(ref => {
+                const EMServiceTop = ref.getBoundingClientRect().top;
+
+                if (EMServiceTop < triggerBottom) {
+                    ref.classList.add('in-view');
+                } else {
+                    ref.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // Our Services Animation End
+
     return (
         <div>
             <section className='environmentMonitoring'>
@@ -29,27 +56,27 @@ const EnivronmentMonitoring = () => {
                     <h1>Service Offerings</h1>
                 </div>
                 <div className='environmentMonitoring-services-list'>
-                    <div>
+                    <div data-direction="top" ref={el => EMServiceRefs.current[0] = el}>
                         <img src='/images/services/environmentMonitoring/Air-monitoring.jpg' alt='' />
                         <a href='/air-monitoring'>Air Monitoring</a>
                     </div>
-                    <div>
+                    <div data-direction="right" ref={el => EMServiceRefs.current[1] = el}>
                         <img src='/images/services/environmentMonitoring/Water-monitoring.jpg' alt='' />
                         <a href='/water-monitoring'>Water Monitoring</a>
                     </div>
-                    <div>
+                    <div data-direction="bottom" ref={el => EMServiceRefs.current[2] = el}>
                         <img src='/images/services/environmentMonitoring/Noise-Monitoring.jpg' alt='' />
                         <a href='/noise-monitoring'>Noise Monitoring</a>
                     </div>
-                    <div>
+                    <div data-direction="left" ref={el => EMServiceRefs.current[3] = el}>
                         <img src='/images/services/environmentMonitoring/Soil-Monitoring.jpg' alt='' />
                         <a href='/soil-monitoring'>Soil Monitoring</a>
                     </div>
-                    <div>
+                    <div data-direction="bottom" ref={el => EMServiceRefs.current[4] = el}>
                         <img src='/images/services/environmentMonitoring/Lux-monitoring.jpg' alt='' />
                         <a href='/lux-monitoring'>Lux Monitoring</a>
                     </div>
-                    <div>
+                    <div data-direction="top" ref={el => EMServiceRefs.current[5] = el}>
                         <img src='/images/services/environmentMonitoring/hazardous-waste-monitoring.jpg' alt='' />
                         <a href='/hazardous-waste-monitoring'>Hazardous Waste Monitoring</a>
                     </div>

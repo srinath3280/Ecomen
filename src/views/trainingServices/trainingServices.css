@@ -33,6 +33,10 @@
     .trainingServices-content-image {
         width: 40%;
         height: 300px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .trainingServices-content-image img {
@@ -45,6 +49,20 @@
         font-weight: 600;
         text-decoration: none;
         color: #282828;
+    }
+
+    /* Training Service Animation */
+    .trainingServices-content-image[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .trainingServices-content-image[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .trainingServices-content-image.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -86,6 +104,10 @@
     .trainingServices-content-image {
         width: 40%;
         height: 200px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .trainingServices-content-image img {
@@ -98,6 +120,20 @@
         font-weight: 600;
         text-decoration: none;
         color: #282828;
+    }
+
+    /* Training Service Animation */
+    .trainingServices-content-image[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .trainingServices-content-image[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .trainingServices-content-image.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -139,6 +175,10 @@
     .trainingServices-content-image {
         width: 50%;
         height: 200px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .trainingServices-content-image img {
@@ -151,6 +191,21 @@
         font-weight: 600;
         text-decoration: none;
         color: #282828;
+    }
+
+
+    /* Training Service Animation */
+    .trainingServices-content-image[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .trainingServices-content-image[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .trainingServices-content-image.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -263,4 +318,3 @@
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
-

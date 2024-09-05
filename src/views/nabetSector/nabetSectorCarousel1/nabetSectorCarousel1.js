@@ -49,22 +49,37 @@ const NABETSectorCarousel1 = () => {
                 className="nabetSectorCarousel1-mySwiper"
             >
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
-                    <img src='/images/home/clients/jsw-150x150.png' alt='' />
+                    <img src='/images/home/client/Tata-steel.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
-                    <img src='/images/home/clients/lafarge-150x150.png' alt='' />
+                    <img src='/images/home/client/jsw.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
-                    <img src='/images/home/clients/rungta-group-150x150.png' alt='' />
+                    <img src='/images/home/client/coal-india.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
-                    <img src='/images/home/clients/tata-steel-150x150.png' alt='' />
+                    <img src='/images/home/client/adani.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
-                    <img src='/images/home/clients/nmdc-150x150.png' alt='' />
+                    <img src='/images/home/client/ntpc.svg' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                    <img src='/images/home/client/jsl.webp' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                    <img src='/images/home/client/minera.png' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                    <img src='/images/home/client/the-hutti-goldmines.jpg' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                    <img src='/images/home/client/nmdc.png' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                    <img src='/images/home/client/mines-geology-karnataka.png' alt='' />
                 </SwiperSlide>
 
-                <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
+                {/* <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
                     <img src='/images/home/clients/jsw-150x150.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
@@ -78,7 +93,7 @@ const NABETSectorCarousel1 = () => {
                 </SwiperSlide>
                 <SwiperSlide className="nabetSectorCarousel1-mySwiper-slides">
                     <img src='/images/home/clients/nmdc-150x150.png' alt='' />
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </>
     );

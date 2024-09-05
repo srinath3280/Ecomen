@@ -23,10 +23,10 @@ function App() {
         </div>
         <div className="App-headerSection-divideline"></div>
         <div className="App-headerSection-maillink">
-          <a href="mailto:Info@Ecomen.In" rel="norefference" target="#blank">
+          <a href="mailto:contactus@ecomen.in" rel="norefference" target="#blank">
             <i class="bi bi-envelope-open"></i>
             <div>
-              <span>Info@Ecomen.In</span>
+              <span>contactus@ecomen.in</span>
               <text>Write to us</text>
             </div>
           </a>

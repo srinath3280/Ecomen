@@ -102,6 +102,10 @@
         justify-content: flex-start;
         align-items: center;
         margin: 20px 0px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .environmentMonitoring-services-list div img{
@@ -118,6 +122,28 @@
         text-decoration: none;
         color: #212829;
         line-height: 50px;
+    }
+
+    /* EMService Animation */
+    .environmentMonitoring-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .environmentMonitoring-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -227,6 +253,10 @@
         justify-content: flex-start;
         align-items: center;
         margin: 20px 0px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .environmentMonitoring-services-list div img{
@@ -242,6 +272,29 @@
         text-align: center;
         text-decoration: none;
         color: #212829;
+    }
+
+
+    /* EMService Animation */
+    .environmentMonitoring-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .environmentMonitoring-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -353,6 +406,10 @@
         justify-content: flex-start;
         align-items: center;
         margin: 20px auto;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .environmentMonitoring-services-list div img{
@@ -368,6 +425,29 @@
         text-align: center;
         text-decoration: none;
         color: #212829;
+    }
+
+
+    /* EMService Animation */
+    .environmentMonitoring-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .environmentMonitoring-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .environmentMonitoring-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 

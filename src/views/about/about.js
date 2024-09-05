@@ -36,6 +36,32 @@ const About = () => {
     }, []);
     // About Animation End
 
+    // AboutExpertise Animation Start
+    const AboutExpertiseRefs = useRef([]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const triggerBottom = window.innerHeight / 4 * 4;
+            AboutExpertiseRefs.current.forEach(ref => {
+                const AboutExpertiseTop = ref.getBoundingClientRect().top;
+
+                if (AboutExpertiseTop < triggerBottom) {
+                    ref.classList.add('in-view');
+                } else {
+                    ref.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // AboutExpertise Animation End
+
     return (
         <div>
             <section className='about'>
@@ -94,9 +120,9 @@ const About = () => {
                     <h1>Our Expertise</h1>
                 </div>
                 <div className='about-expertise-images'>
-                    <div className='about-expertise-images-1'>Environmental <br /> Science</div>
-                    <div className='about-expertise-images-2'>Mining</div>
-                    <div className='about-expertise-images-3'>Forestry</div>
+                    <div className='about-expertise-images-1' data-direction="top" ref={el => AboutExpertiseRefs.current[0] = el}>Environmental <br /> Science</div>
+                    <div className='about-expertise-images-2' data-direction="right" ref={el => AboutExpertiseRefs.current[1] = el}>Mining</div>
+                    <div className='about-expertise-images-3' data-direction="bottom" ref={el => AboutExpertiseRefs.current[2] = el}>Forestry</div>
                 </div>
                 <div className='about-expertise-buttons'>
                     <a href='/our-services'>OUR SERVICES<i class="bi bi-arrow-right-short"></i></a>

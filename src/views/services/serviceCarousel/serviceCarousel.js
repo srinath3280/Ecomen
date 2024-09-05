@@ -52,97 +52,52 @@ const ServiceCarousel = () => {
                     <img src='/images/home/clients/acc-150x150.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/coal-india-150x150.png' alt='' />
+                    <img src='/images/home/client/Tata-steel.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/best-cement-150x150.png' alt='' />
+                    <img src='/images/home/client/jsw.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/Bharat-petroleum-150x150.png' alt='' />
+                    <img src='/images/home/client/coal-india.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/magic-cement-150x150.png' alt='' />
+                    <img src='/images/home/client/adani.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/balco-150x150.png' alt='' />
+                    <img src='/images/home/client/ntpc.svg' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/hal-150x150.png' alt='' />
+                    <img src='/images/home/client/jsl.webp' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/heidelbern-cment-150x150.png' alt='' />
+                    <img src='/images/home/client/minera.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/hp-1-150x150.png' alt='' />
+                    <img src='/images/home/client/the-hutti-goldmines.jpg' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/indian-bureau-of-mines-150x150.png' alt='' />
+                    <img src='/images/home/client/kirloskar.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/indian-oil-150x150.png' alt='' />
+                    <img src='/images/home/client/nmdc.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/indian-railways-150x150.png' alt='' />
+                    <img src='/images/home/client/am-ns-india.jfif' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/jindal-150x150.png' alt='' />
+                    <img src='/images/home/client/mines-geology-karnataka.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/jrt-150x150.png' alt='' />
+                    <img src='/images/home/client/ramco-supergrade.webp' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/jsw-150x150.png' alt='' />
+                    <img src='/images/home/client/nuvoco.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/lafarge-150x150.png' alt='' />
+                    <img src='/images/home/client/karnataka-power-corporation.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/lanco-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/nerolac-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/nhpc-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/omc-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/nmdc-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/pepsico-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/ntpc-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/prism-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/reliance-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/resize-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/rungta-group-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/Sree-Sumangala-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/tata-steel-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/top-chem-cement-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/upal-150x150.png' alt='' />
-                </SwiperSlide>
-                <SwiperSlide className="service-client-mySwiper-slides">
-                    <img src='/images/home/clients/visaka-150x150.png' alt='' />
+                    <img src='/images/home/client/karnataka-industrial-area-development.png' alt='' />
                 </SwiperSlide>
             </Swiper>
         </>

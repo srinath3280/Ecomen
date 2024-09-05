@@ -49,23 +49,31 @@ const NABETSectorCarousel3 = () => {
                 className="NABETSectorCarousel3-mySwiper"
             >
                 <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/jrt-150x150.png' alt='' />
+                    <img src='/images/home/client/Tata-steel.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/upal-150x150.png' alt='' />
+                    <img src='/images/home/client/jsw.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/visaka-150x150.png' alt='' />
-                </SwiperSlide>
-
-                <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/jrt-150x150.png' alt='' />
+                    <img src='/images/home/client/jsl.webp' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/upal-150x150.png' alt='' />
+                    <img src='/images/home/client/minera.png' alt='' />
                 </SwiperSlide>
                 <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
-                    <img src='/images/home/clients/visaka-150x150.png' alt='' />
+                    <img src='/images/home/client/kirloskar.png' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
+                    <img src='/images/home/client/am-ns-india.jfif' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
+                    <img src='/images/home/client/ramco-supergrade.webp' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
+                    <img src='/images/home/client/nuvoco.png' alt='' />
+                </SwiperSlide>
+                <SwiperSlide className="NABETSectorCarousel3-mySwiper-slides">
+                    <img src='/images/home/client/karnataka-industrial-area-development.png' alt='' />
                 </SwiperSlide>
             </Swiper>
         </>

@@ -101,6 +101,10 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .enivronmentConsulting-services-list div img{
@@ -116,6 +120,28 @@
         text-align: center;
         text-decoration: none;
         color: #212829;
+    }
+
+    /* ECService Animation */
+    .enivronmentConsulting-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .enivronmentConsulting-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -224,6 +250,10 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .enivronmentConsulting-services-list div img{
@@ -239,6 +269,29 @@
         text-align: center;
         text-decoration: none;
         color: #212829;
+    }
+
+
+    /* ECService Animation */
+    .enivronmentConsulting-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .enivronmentConsulting-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 
@@ -350,6 +403,10 @@
         justify-content: flex-start;
         align-items: center;
         margin: 20px 0px;
+
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+        will-change: transform, opacity;
     }
 
     .enivronmentConsulting-services-list div img{
@@ -365,6 +422,29 @@
         text-align: center;
         text-decoration: none;
         color: #212829;
+    }
+
+
+    /* ECService Animation */
+    .enivronmentConsulting-services-list div[data-direction="top"] {
+        transform: translateY(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="right"] {
+        transform: translateX(50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="left"] {
+        transform: translateX(-50%);
+    }
+
+    .enivronmentConsulting-services-list div[data-direction="bottom"] {
+        transform: translateY(50%);
+    }
+
+    .enivronmentConsulting-services-list div.in-view {
+        opacity: 1;
+        transform: translate(0, 0);
     }
 }
 

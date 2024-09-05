@@ -7,8 +7,8 @@
         width: 20%;
         height: 150px;
     }
-    .client-mySwiper-slides{
-        width: 200px;
+    .client-mySwiper-slides img{
+        width: 175px;
         height: 150px;
     }
 }
@@ -24,8 +24,8 @@
         width: 20%;
         height: 150px;
     }
-    .client-mySwiper-slides{
-        width: 200px;
+    .client-mySwiper-slides img{
+        width: 175px;
         height: 150px;
     }
 }

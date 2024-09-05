@@ -1,7 +1,34 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './laboratory.css';
 
 const Laboratory = () => {
+
+    // LaboratoyServices Animation Start
+    const LaboratoryRefs = useRef([]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const triggerBottom = window.innerHeight / 4 * 4;
+            LaboratoryRefs.current.forEach(ref => {
+                const LaboratoryTop = ref.getBoundingClientRect().top;
+
+                if (LaboratoryTop < triggerBottom) {
+                    ref.classList.add('in-view');
+                } else {
+                    ref.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // LaboratoyServices Animation End
+
     return (
         <div>
             {/* NABL Certified Laboratory */}
@@ -30,23 +57,23 @@ const Laboratory = () => {
                     <h1>Our Laboratory Services</h1>
                 </div>
                 <div className='laboratory-services-content'>
-                    <div className='laboratory-services-content-image'>
+                    <div className='laboratory-services-content-image' data-direction="top" ref={el => LaboratoryRefs.current[0] = el}>
                         <img src='/images/laboratory/ourLaboratoryServices/water-testing.jpg' alt='' />
                         <a href='/water-testing'>Water Testing</a>
                     </div>
-                    <div className='laboratory-services-content-image'>
+                    <div className='laboratory-services-content-image' data-direction="left" ref={el => LaboratoryRefs.current[1] = el}>
                         <img src='/images/laboratory/ourLaboratoryServices/soil-testing.jpg' alt='' />
                         <a href='/soil-testing'>Soil Testing</a>
                     </div>
-                    <div className='laboratory-services-content-image'>
+                    <div className='laboratory-services-content-image' data-direction="bottom" ref={el => LaboratoryRefs.current[2] = el}>
                         <img src='/images/laboratory/ourLaboratoryServices/asbestos-testing.jpg' alt='' />
                         <a href='/asbestos-testing'>Asbestos Testing</a>
                     </div>
-                    <div className='laboratory-services-content-image'>
+                    <div className='laboratory-services-content-image' data-direction="right" ref={el => LaboratoryRefs.current[3] = el}>
                         <img src='/images/laboratory/ourLaboratoryServices/ores-and-mineral-testing.jpg' alt='' />
                         <a href='/ores-and-minerals-testing'>Ores and Minerals Testing</a>
                     </div>
-                    <div className='laboratory-services-content-image'>
+                    <div className='laboratory-services-content-image' data-direction="bottom" ref={el => LaboratoryRefs.current[4] = el}>
                         <img src='/images/laboratory/ourLaboratoryServices/coke-and-coal-testing.jpg' alt='' />
                         <a href='/coke-and-coal-testing'>Coke and Coal Testing</a>
                     </div>

@@ -1,7 +1,34 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './enivronmentConsulting.css';
 
 const EnivronmentConsulting = () => {
+
+    // Our Services Animation Start
+    const ECServiceRefs = useRef([]);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const triggerBottom = window.innerHeight / 4 * 4;
+            ECServiceRefs.current.forEach(ref => {
+                const ECServiceTop = ref.getBoundingClientRect().top;
+
+                if (ECServiceTop < triggerBottom) {
+                    ref.classList.add('in-view');
+                } else {
+                    ref.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+    // Our Services Animation End
+
     return (
         <div>
             <section className='enivronmentConsulting'>
@@ -32,23 +59,23 @@ const EnivronmentConsulting = () => {
                     <h1>Service Offerings</h1>
                 </div>
                 <div className='enivronmentConsulting-services-list'>
-                    <div>
+                    <div data-direction="top" ref={el => ECServiceRefs.current[0] = el}>
                         <img src='/images/services/environmentConsulting/Environmental-Site-Assessment.jpg' alt='' />
                         <a href='/environment-site-assessment'>Environment Site Assessment(ESA)</a>
                     </div>
-                    <div>
+                    <div data-direction="right" ref={el => ECServiceRefs.current[1] = el}>
                         <img src='/images/services/environmentConsulting/Environmental-Impact-Assessment.jpg' alt='' />
                         <a href='/environment-impact-assessment'>Environment Impact Assessment(EIA)</a>
                     </div>
-                    <div>
+                    <div data-direction="bottom" ref={el => ECServiceRefs.current[2] = el}>
                         <img src='/images/services/environmentConsulting/Environmental-Audit-1.jpg' alt='' />
                         <a href='/environment-audit'>Environment Audit(EA)</a>
                     </div>
-                    <div>
+                    <div data-direction="left" ref={el => ECServiceRefs.current[3] = el}>
                         <img src='/images/services/environmentConsulting/Environmental-Clearance.jpg' alt='' />
                         <a href='/environment-clearance'>Environment Clearance(EC)</a>
                     </div>
-                    <div>
+                    <div data-direction="bottom" ref={el => ECServiceRefs.current[4] = el}>
                         <img src='/images/services/environmentConsulting/Environmental-Health-and-Safety.jpg' alt='' />
                         <a href='/environment-health-safety'>Environment Health & Safety(EHS)</a>
                     </div>
