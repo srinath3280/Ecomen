@@ -76,6 +76,18 @@ const AccreditationAwards = () => {
                         <img src='/images/accreditationAwards/accreditation/MSME-150x150.png' alt='' />
                         <p>Ministry of Micro, Small and Medium Enterprises</p>
                     </div>
+                    <div className='accreditationAwards-accreditation-content-block'>
+                        <img src='/images/accreditationAwards/accreditation/qci.png' alt='' />
+                        <p>Quality Council of India (QCI)</p>
+                    </div>
+                    <div className='accreditationAwards-accreditation-content-block'>
+                        <img src='/images/accreditationAwards/accreditation/cpcb.png' alt='' />
+                        <p>Central Pollution Control Board, Ministry of Environment</p>
+                    </div>
+                    <div className='accreditationAwards-accreditation-content-block'>
+                        <img src='/images/accreditationAwards/accreditation/lms.png' alt='' />
+                        <p>Learning Management System (LMS)</p>
+                    </div>
                 </div>
             </section>
         </div>

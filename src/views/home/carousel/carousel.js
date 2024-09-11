@@ -31,7 +31,7 @@ const HomeCarousel = () => {
                 className="home-mySwiper"
             >
                 <SwiperSlide className="home-swiperSlide">
-                    <img src='/images/home/carousels/Enviroment-Monitoring.jpg' alt='' />
+                    <img src='/image/home/carousel/8G3A2486.JPG' alt='' />
                     <div>
                         <h1>NABET ACCREDITED</h1>
                         <p>
@@ -41,7 +41,7 @@ const HomeCarousel = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="home-swiperSlide">
-                    <img src='/images/home/carousels/nabl-1.gif' alt='' />
+                    <img src='/image/home/carousel/8G3A2545.JPG' alt='' />
                     <div>
                         <h1>NABL CERTIFIED LABORATORY</h1>
                         <p>
@@ -51,9 +51,9 @@ const HomeCarousel = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="home-swiperSlide">
-                    <img src='/images/home/carousels/MOEFCC.gif' alt='' />
+                    <img src='/image/home/carousel/8G3A2509.JPG' alt='' />
                     <div>
-                        <h1>RECOGNISED BY MOEF&CC</h1>
+                        <h1>RECOGNISED BY MOEF & CC</h1>
                         <p>
                             We are certified by the Ministry of Environment, Forest and Climate Change (MoEF&CC) for Environmental Monitoring and Analytical Testing.
                         </p>
@@ -61,7 +61,7 @@ const HomeCarousel = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className="home-swiperSlide">
-                    <img src='/images/home/carousels/Ecomen_GVTC_Simulators-1.gif' alt='' />
+                    <img src='/image/home/carousel/8G3A2230.JPG' alt='' />
                     <div>
                         <h1>GVTC & Research and Training Centre</h1>
                         <p>

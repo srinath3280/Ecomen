@@ -43,17 +43,19 @@ const Contact = () => {
                         <h2>Head Office</h2>
                         <h3>Address</h3>
                         <p>
-                            <strong>Ecomen Laboratories Pvt. Ltd.</strong> <br />
-                            B – 1/8, 2nd Floor, Sector-H, Aliganj,<br />
-                            Lucknow – 226024, Uttar Pradesh, India.
+                            Ecomen laboratories Pvt. Ltd.<br />
+                            Jakkur Rd. above CSC Aadhar <br />
+                            Centre, MCHS layout, Jakkur, <br />
+                            Bangalore – 560064,<br />
+                            Karnataka.
                         </p>
                         <div className='contact-info-address-contact'>
                             <p>
-                                <span>Phone: </span>+91-0522-4079201 / 2746282
+                                <span>Phone: </span> +91-080-29533368
                             </p>
                             <p>
                                 <span>Email: </span>
-                                <a href='mailto:info@ecomen.in'>info@ecomen.in </a>
+                                <a href='mailto:info@ecomen.in'>support@ecomen.in</a>
                                 /
                                 <a href='mailto:contactus@ecomen.in'> contactus@ecomen.in</a>
                             </p>
@@ -108,17 +110,16 @@ const Contact = () => {
                     </div>
                     <div className='contact-offices-branch-1'>
                         <div>
-                            <h4>BENGALURU</h4>
+                            <h4>LUCKNOW</h4>
                             <p>
-                                Ecomen laboratories Pvt. Ltd.<br />
-                                Jakkur Rd. above CSC Aadhar <br />
-                                Centre, MCHS layout, Jakkur, <br />
-                                Bangalore – 560064,<br />
-                                Karnataka.
+                                Ecomen Laboratories Pvt. Ltd. <br />
+                                B – 1/8, 2nd Floor, Sector-H, <br />
+                                Aliganj, Lucknow – 226024, <br />
+                                Uttar Pradesh, India.
                             </p>
                             <div>
                                 <p>
-                                    <span>Phone: </span> +91-080-29533368
+                                    <span>Phone: </span> +91-0522-4079201 / 2746282
                                 </p>
                                 <p>
                                     <span>Email: </span> support@ecomen.in
