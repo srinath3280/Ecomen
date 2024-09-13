@@ -140,7 +140,21 @@
         height: auto;
         padding: 15px;
         margin: 10px;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; */
     }
+
+    /* .contact-offices-branch-1 div{
+        width: 50%;
+        height: auto;
+    }
+    .contact-offices-branch-1 div iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    } */
 
     .contact-offices-branch-1 h4 {
         font-size: 15px;
@@ -174,9 +188,75 @@
     .contact-divideline {
         width: 80%;
         border: 1px solid #2c2c2c;
-        margin: 25px auto 100px;
+        margin: 50px auto 50px;
         opacity: 0.1;
     }
+
+
+    /* Our Locations */
+    .contact-location {
+        width: 100%;
+        height: 550px;
+        position: relative;
+    }
+
+    .contact-location-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-location-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-location .map-container {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 25px;
+    }
+
+
+    .blinking-icon {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .address-display {
+        width: 225px;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-display p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
 
 
     /* Send us a Message */
@@ -224,13 +304,16 @@
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form input:focus {
         border-color: #ff6900;
     }
+
     .contact-message-form form textarea {
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form textarea:focus {
         border-color: #ff6900;
     }
@@ -262,6 +345,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
+
     .contact-message-form form button:hover {
         background-color: #282828;
         color: #fff;
@@ -408,11 +492,25 @@
     }
 
     .contact-offices-branch-1 {
-        width: 40%;
+        width: 45%;
         height: auto;
         padding: 15px;
-        margin: 10px;
+        margin: 10px 0px;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; */
     }
+
+    /* .contact-offices-branch-1 div{
+        width: 50%;
+        height: auto;
+    }
+    .contact-offices-branch-1 div iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    } */
 
     .contact-offices-branch-1 h4 {
         font-size: 15px;
@@ -496,13 +594,16 @@
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form input:focus {
         border-color: #ff6900;
     }
+
     .contact-message-form form textarea {
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form textarea:focus {
         border-color: #ff6900;
     }
@@ -534,6 +635,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
+
     .contact-message-form form button:hover {
         background-color: #282828;
         color: #fff;
@@ -683,11 +785,26 @@
     }
 
     .contact-offices-branch-1 {
-        width: 40%;
+        width: 45%;
         height: auto;
         padding: 15px;
-        margin: 10px;
+        margin: 10px 0px;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start; */
     }
+
+    /* .contact-offices-branch-1 div{
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+    }
+    .contact-offices-branch-1 div iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    } */
 
     .contact-offices-branch-1 h4 {
         font-size: 15px;
@@ -771,13 +888,16 @@
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form input:focus {
         border-color: #ff6900;
     }
+
     .contact-message-form form textarea {
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form textarea:focus {
         border-color: #ff6900;
     }
@@ -809,6 +929,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
+
     .contact-message-form form button:hover {
         background-color: #282828;
         color: #fff;
@@ -951,18 +1072,33 @@
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
     }
 
     .contact-offices-branch-1 {
-        width: 40%;
+        width: 80%;
         height: auto;
-        padding: 10px;
-        margin: 5px;
+        padding: 15px;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
     }
+
+    /* .contact-offices-branch-1 div{
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
+    }
+    .contact-offices-branch-1 div iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    } */
 
     .contact-offices-branch-1 h4 {
         font-size: 14px;
@@ -1046,13 +1182,16 @@
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form input:focus {
         border-color: #ff6900;
     }
+
     .contact-message-form form textarea {
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form textarea:focus {
         border-color: #ff6900;
     }
@@ -1084,6 +1223,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
+
     .contact-message-form form button:hover {
         background-color: #282828;
         color: #fff;
@@ -1233,11 +1373,26 @@
     }
 
     .contact-offices-branch-1 {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+        margin: 10px auto;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start; */
+    }
+
+    /* .contact-offices-branch-1 div{
         width: 100%;
         height: auto;
-        padding: 10px;
-        margin: 5px;
+        margin: 10px 0px;
     }
+    .contact-offices-branch-1 div iframe {
+        width: 100%;
+        height: 00px;
+        border: none;
+    } */
 
     .contact-offices-branch-1 h4 {
         font-size: 12px;
@@ -1321,13 +1476,16 @@
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form input:focus {
         border-color: #ff6900;
     }
+
     .contact-message-form form textarea {
         outline: none;
         transition: border-color 0.3s ease;
     }
+
     .contact-message-form form textarea:focus {
         border-color: #ff6900;
     }
@@ -1359,6 +1517,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
+
     .contact-message-form form button:hover {
         background-color: #282828;
         color: #fff;
@@ -1366,4 +1525,3 @@
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
-

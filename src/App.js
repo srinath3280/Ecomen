@@ -36,7 +36,7 @@ function App() {
           <a href="https://maps.app.goo.gl/WoGEbkWYp9Ux6nKs9" rel="norefference" target="#blank">
             <i class="bi bi-geo-alt"></i>
             <div>
-              <span>1st Floor, #91/A, Ward No. 7, MCHS Jakkur Layout, Bangalore</span>
+              <span>1st Floor, #91/A, MCHS Jakkur Layout, Bangalore</span>
               <text>Head Office</text>
             </div>
           </a>
