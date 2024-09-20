@@ -143,6 +143,41 @@ const Contact = (props) => {
                 </div>
             </section>
 
+            <section className='contact-location'>
+                <div className='contact-location-heading'>
+                    <h1>Our Office Locations</h1>
+                </div>
+                <div className='map-container'>
+                    <Map
+                        google={props.google}
+                        zoom={5}
+                        style={mapStyles}
+                        initialCenter={{
+                            lat: defaultCenter.lat,
+                            lng: defaultCenter.lng,
+                        }}
+                        ref={mapRef}
+                    >
+                        {/* {locations.map((location, index) => (
+                            <Marker
+                                key={index}
+                                position={{ lat: location.lat, lng: location.lng }}
+                                icon={{
+                                    url: 'https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-red-location-mark-png-image_9229394.png',// Replace with your icon URLs
+                                    scaledSize: new props.google.maps.Size(64, 64), // Adjust the size of the icon
+                                    className: 'blink-zoom-icon'
+                                }}
+                            />
+                        ))} */}
+                    </Map>
+                </div>
+                {address && (
+                    <div className='address-display'>
+                        <p dangerouslySetInnerHTML={{ __html: formatAddress(address) }} />
+                    </div>
+                )}
+            </section>
+
             {/* Our Branch Offices */}
             <section className='contact-offices'>
                 <div className='contact-offices-heading'>
@@ -288,40 +323,7 @@ const Contact = (props) => {
                 </div>
             </section>
 
-            <section className='contact-location'>
-                <div className='contact-location-heading'>
-                    <h1>Our Office Locations</h1>
-                </div>
-                <div className='map-container'>
-                    <Map
-                        google={props.google}
-                        zoom={5}
-                        style={mapStyles}
-                        initialCenter={{
-                            lat: defaultCenter.lat,
-                            lng: defaultCenter.lng,
-                        }}
-                        ref={mapRef}
-                    >
-                        {/* {locations.map((location, index) => (
-                            <Marker
-                                key={index}
-                                position={{ lat: location.lat, lng: location.lng }}
-                                icon={{
-                                    url: 'https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-red-location-mark-png-image_9229394.png',// Replace with your icon URLs
-                                    scaledSize: new props.google.maps.Size(64, 64), // Adjust the size of the icon
-                                    className: 'blink-zoom-icon'
-                                }}
-                            />
-                        ))} */}
-                    </Map>
-                </div>
-                {address && (
-                    <div className='address-display'>
-                        <p dangerouslySetInnerHTML={{ __html: formatAddress(address) }} />
-                    </div>
-                )}
-            </section>
+
             <div className='contact-divideline'></div>
 
             {/* Send us a Message */}

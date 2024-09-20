@@ -198,6 +198,7 @@
         width: 100%;
         height: 550px;
         position: relative;
+        margin: 0px 0px 75px;
     }
 
     .contact-location-heading {
@@ -549,6 +550,71 @@
     }
 
 
+    /* Our Locations */
+    .contact-location {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        margin: 0px 0px 75px;
+    }
+
+    .contact-location-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-location-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-location .map-container {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 25px;
+    }
+
+
+    .blinking-icon {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .address-display {
+        width: 225px;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-display p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
     /* Send us a Message */
     .contact-message {
         width: 100%;
@@ -840,6 +906,71 @@
         border: 1px solid #2c2c2c;
         margin: 25px auto 100px;
         opacity: 0.1;
+    }
+
+
+    /* Our Locations */
+    .contact-location {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        margin: 0px 0px 75px;
+    }
+
+    .contact-location-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-location-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-location .map-container {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 25px;
+    }
+
+
+    .blinking-icon {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .address-display {
+        width: 225px;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-display p {
+        font-size: 15px;
+        font-weight: 500;
     }
 
 
@@ -1137,6 +1268,71 @@
     }
 
 
+    /* Our Locations */
+    .contact-location {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        margin: 0px 0px 75px;
+    }
+
+    .contact-location-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-location-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-location .map-container {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+
+    .blinking-icon {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .address-display {
+        width: 225px;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-display p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
     /* Send us a Message */
     .contact-message {
         width: 100%;
@@ -1428,6 +1624,71 @@
         border: 1px solid #2c2c2c;
         margin: 25px auto 0px;
         opacity: 0.1;
+    }
+
+
+    /* Our Locations */
+    .contact-location {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        margin: 0px 0px 75px;
+    }
+
+    .contact-location-heading {
+        margin: 50px 0px;
+    }
+
+    .contact-location-heading h1 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #81d742;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .contact-location .map-container {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+
+    .blinking-icon {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .address-display {
+        width: 225px;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .address-display p {
+        font-size: 15px;
+        font-weight: 500;
     }
 
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './about.css';
 import AboutCarousel from './aboutCarousel/aboutCarousel';
 
@@ -61,6 +61,14 @@ const About = () => {
         };
     }, []);
     // AboutExpertise Animation End
+
+
+    const [openModalId, setOpenModalId] = useState(null); // Track the ID of the open modal
+
+    const toggleModal = (id) => {
+        // If modal is open for the same ID, close it, otherwise open the modal for the new ID
+        setOpenModalId(openModalId === id ? null : id);
+    };
 
     return (
         <div>
@@ -135,7 +143,7 @@ const About = () => {
                 <div className='about-board-heading'>
                     <h1>Board Of Directors</h1>
                 </div>
-                <div className='about-board-content'>
+                {/* <div className='about-board-content'>
                     <div className='about-board-content-image'>
                         <figure>
                             <img src='/images/about/boardOfDirectors/DSC_5721_-_Copy-removebg-preview.png' alt='' />
@@ -164,6 +172,106 @@ const About = () => {
                         <h3>Preeti Singh</h3>
                         <p>Ex Officio Director</p>
                     </div>
+                </div> */}
+
+                {/* Writeup */}
+                <div className='about-board-writeup'>
+                    {/* Button with image and text */}
+                    <button className="modal-button" onClick={() => toggleModal(1)}>
+                        <img src="/images/about/boardOfDirectors/binay-pandey.png" alt="Director" className="button-image" />
+                        <div className="button-text">
+                            <p>Dr. Binay Prakash Pandey</p>
+                            <span>
+                                Chairman & CEO
+                            </span>
+                        </div>
+
+                    </button>
+
+                    {/* Modal Box */}
+                    {openModalId === 1 && (
+                        <div className="modal">
+                            <div className="modal-content">
+                                <div className="modal-left">
+                                    <img src="/images/about/boardOfDirectors/binay-pandey.png" alt="Left Content" className="modal-image" />
+                                </div>
+                                <div className="modal-right">
+                                    <h1>Dr. Binay Prakash Pandey</h1>
+                                    <h4>Chairman & CEO</h4>
+                                    <p>
+                                        At Ecomen Mining Pvt. Ltd., our mission to drive sustainable and innovative solutions in the mining and environmental sectors led with passion and expertise by our Chairman and CEO, Dr. Binay Prakash Pandey. With a distinguished career spanning over three decades, Dr. Pandey has been a cornerstone in advancing Environmental Impact Assessment (EIA) and technical area management, setting new benchmarks in the industry.
+                                    </p>
+                                    <p>
+                                        Dr. Pandey's journey is marked by a strong academic foundation and an unwavering commitment to environmental stewardship. He earned his PhD in eco-friendly iron ore mining from the Indian School of Mines (IIT) Dhanbad, reflecting his dedication to integrating sustainable practices into mining operations. His qualifications also include M.Tech in Environment from IIT Dhanbad, an MBA in Management from Indira Gandhi National Open University, and a B.Tech degree in Mining from NITK Surathkal. This diverse educational background provides him with a comprehensive understanding of both technical and managerial aspects, equipping him to lead with both insight and strategic vision.
+                                    </p>
+                                    <p>
+                                        In his role as Chairman and CEO since 2020, Dr. Pandey has played a pivotal role in steering Ecomen Mining Pvt. Ltd. towards excellence. His leadership has been instrumental in securing critical Forest Clearance proposals in obtaining Stage-I & II approvals for major iron ore mining projects, including those with renowned organizations such as KIOCL, TATA Steel, Kirloskar Ferrous Industries Ltd., NMDC, SAIL, JSW, RAMCO, Karnataka Power Corporation Ltd., etc. His strategic oversight ensures that our operations not only meet but exceed industry standards in environmental and forest management.
+                                    </p>
+                                    <p>
+                                        Before joining Ecomen Mining Pvt. Ltd., Dr. Pandey, served as Senior Vice President at JSW Steel – Tornagallu region in Sandur (Karnataka) where he managed all the EHS (Environment, Health, and Safety) site activities, Head of Mining Projects and complex forest diversion proposals, and at KIOCL Limited, where he was key in safety management for one of Asia’s largest mining projects. His contributions to Environmental Impact Assessment include pioneering frameworks for noise monitoring, air quality, hydrology and ground water conservation and mitigation, designing noise and vibration attenuation systems, and developing green belt plans to address environmental impacts.
+                                    </p>
+                                    <p>
+                                        Dr. Pandey’s commitment to continuous improvement is evident from his training in Leadership and Change Management at IIM-Ahmedabad, highlighting his dedication to effective and progressive management.
+                                    </p>
+                                    <p>
+                                        As a life member of the Federation of Indian Mineral Institutions and the Mining Engineers Association of India, and a member of the Institute of Engineers India, Dr. Pandey remains deeply connected to the professional community, furthering his mission of advancing industry standards and practices.
+                                    </p>
+                                    <p>
+                                        Under Dr. Pandey’s leadership, Ecomen Mining Pvt. Ltd. continues to thrive as a leader in sustainable mining practices and environmental management. His extensive expertise and strategic vision make him an invaluable asset to our organization and the broader industry.
+                                    </p>
+                                    <h4>Looking Ahead</h4>
+                                    <p>
+                                        At Ecomen Mining Pvt. Ltd., we are dedicated to driving innovation and sustainability in our projects. Our commitment to environmental management and technical excellence remains steadfast as we navigate the challenges and opportunities in our industry. I am proud to lead a team that shares this vision and look forward to our continued success in achieving sustainable growth and operational excellence.
+                                    </p>
+                                    <p>
+                                        Thank you for your interest in Ecomen Mining Pvt. Ltd. we are excited about the future and our role in shaping a more sustainable and advancing industry standards and practices in mining industry.
+                                    </p>
+                                    <button className="close-button" onClick={() => toggleModal(1)}>
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Button with image and text */}
+                    <button className="modal-button" onClick={() => toggleModal(2)}>
+                        <img src="/images/about/boardOfDirectors/Anil-editednew.jpg" alt="Director" className="button-image" />
+                        <div className="button-text">
+                            <p>ANIL KUMAR KARNATI</p>
+                            <span>
+                                Director (FINANCE)
+                            </span>
+                        </div>
+
+                    </button>
+
+                    {/* Modal Box */}
+                    {openModalId === 2 && (
+                        <div className="modal">
+                            <div className="modal-content">
+                                <div className="modal-left">
+                                    <img src="/images/about/boardOfDirectors/Anil-editednew.jpg" alt="Left Content" className="modal-image" />
+                                </div>
+                                <div className="modal-right">
+                                    <h1>ANIL KUMAR KARNATI</h1>
+                                    <h4>Director (FINANCE)</h4>
+                                    <p>
+                                        Mr. Anil Kumar Karnati, 46, has been the Director (Finance) of Ecomen Mining Private Limited since September 30, 2020. With a degree and over 20 years of experience in mining and infrastructure, he exemplifies resilience and visionary leadership. Rising from humble beginnings, Mr. Anil overcame financial hardships to become a prominent figure in the business world, known for his strategic foresight and empathetic leadership style.
+                                    </p>
+                                    <p>
+                                        His hands-on approach has driven numerous successful projects, demonstrating his ability to transform challenges into opportunities. Under his guidance, Ecomen has established itself as an industry leader, focused on excellence and collaboration. Additionally, Mr. Anil serves as CEO and Director of MSR Projects and Minerals Pvt. Ltd. in Hyderabad, where his leadership has led to project success and profitability.
+                                    </p>
+                                    <p>
+                                        Mr. Anil's journey from adversity to leadership inspires aspiring entrepreneurs and highlights the importance of perseverance and innovation. His commitment to integrity and teamwork continues to shape the company's success and legacy.
+                                    </p>
+                                    <button className="close-button" onClick={() => toggleModal(2)}>
+                                        <i class="bi bi-x-lg"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </section>
 

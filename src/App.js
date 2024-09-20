@@ -13,10 +13,10 @@ function App() {
           <img src="/images/Ecomen-Logo.png" alt="" />
         </div>
         <div className="App-headerSection-phonelink">
-          <a href="tel:+91-0522-4079201 / 2746282" rel="norefference" target="#blank">
+          <a href="tel:+91-080-29533368" rel="norefference" target="#blank">
             <i class="bi bi-telephone"></i>
             <div>
-              <span>+91-0522-4079201 / 2746282</span>
+              <span>+91-080-29533368</span>
               <text>Contact Us</text>
             </div>
           </a>
