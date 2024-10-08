@@ -275,168 +275,437 @@ const About = () => {
                 </div>
             </section>
 
-            {/* EIA Co-Ordinators */}
-            <section className='about-eia'>
-                <div className='about-eia-heading'>
-                    <h1>EIA Co-Ordinators</h1>
+            {/* Board of Honorary Members & Advisors */}
+            <section className='about-boardhma'>
+                <div className='about-boardhma-heading'>
+                    <h1>Board of Honorary Members & Advisors</h1>
                 </div>
-                <div className='about-eia-content'>
-                    <div className='about-eia-content-image'>
+                <div className='about-boardhma-content'>
+                    <div className='about-boardhma-content-image'>
                         <figure>
-                            <img src='/images/about/eiaCoOrdinators/Binay-edited.jpg' alt='' />
+                            <img src='/images/about/honoryMembers/Ms-Anuradha-Srivastava-pic.jfif' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Binay Prakash Pandey</h3>
-                            <p>EC - Mining, Mineral benefication, Cement plant</p>
-                            <p>FAE - Geo, RH & HG, SHW</p>
+                            <h3>Anuradha Srivastava</h3>
+                            <p>General Manager</p>
+                            <p>anuradha.srivastava@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-eia-content-image'>
+                    <div className='about-boardhma-content-image'>
                         <figure>
-                            <img src='/images/about/eiaCoOrdinators/Mr-Ram-Sushil-Mishra.jpg' alt='' />
+                            <img src='/images/about/honoryMembers/ajr-photo-2018.JPG' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Ram Sushil Mishra</h3>
-                            <p>EC - Metallurgical industries, Cement plants, Synthetic organic chemical industry, Isolated storage & Handling of Hazardous chemicals, Ports, Harbours, break waters and dredging</p>
-                            <p>FAE - RH & WP.</p>
+                            <h3>Avasarala Jagannadha Rao</h3>
+                            <p>Advisor</p>
+                            <p>aj.rao@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-eia-content-image'>
+                    <div className='about-boardhma-content-image'>
                         <figure>
-                            <img src='/images/about/eiaCoOrdinators/Ms-Akansha-Rampuria.jpg' alt='' />
+                            <img src='/images/about/honoryMembers/Dr-SSingh-pic.jpg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Akansha Rampuria</h3>
-                            <p>EC - Metallurgical industries, Cement plants, Building & Construction & Townships & Area development</p>
-                            <p>FAE - AQ, AP, SHW & WP</p>
-                        </div>
-                    </div>
-                    <div className='about-eia-content-image'>
-                        <figure>
-                            <img src='/images/about/eiaCoOrdinators/Mr-Rajiv-Rastogi-Socio-Economic-Expert.jpg' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Mr. Rajiv Rastogi</h3>
-                            <p>EC - Mining & Asbestos</p>
-                            <p>FAE - SE</p>
+                            <h3>Dr. Shailendra Kumar Singh</h3>
+                            <p>Director (Technical + Projects)</p>
+                            <p>singhsk61492@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </section >
 
-            {/* Functional Area Experts */}
-            <section className='about-funtionalArea'>
-                <div className='about-funtionalArea-heading'>
-                    <h1>Functional Area Experts</h1>
+            {/* Project Manager (All depts) */}
+            <section className='about-projectmanager'>
+                <div className='about-projectmanager-heading'>
+                    <h1>Project Manager (All depts)</h1>
                 </div>
-                <div className='about-funtionalArea-content'>
-                    <div className='about-funtionalArea-content-image'>
+                <div className='about-projectmanager-content'>
+                    <div className='about-projectmanager-content-image'>
                         <figure>
-                            <img src='/images/about/functionalExperts/Mr-Praveen-Dubey-General-Manager.jpg' alt='' />
+                            <img src='/images/about/projectManager/Murali-Manas-P.jpg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Praveen Dubey</h3>
-                            <p>FAE - AQ, AP,EB</p>
-                        </div>
-                    </div>
-                    <div className='about-funtionalArea-content-image'>
-                        <figure>
-                            <img src='/images/about/functionalExperts/Ms-Anuradha-Srivastava-Admin-Manager.jpg' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Ms. Anuradha</h3>
-                            <p>FAE - RH</p>
-                        </div>
-                    </div>
-                    <div className='about-funtionalArea-content-image'>
-                        <figure>
-                            <img src='/images/about/functionalExperts/Preeti_singh_pic-removebg-previe.png' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Ms. Preeti Singh</h3>
-                            <p>FAE - LU</p>
-                        </div>
-                    </div>
-                    <div className='about-funtionalArea-content-image'>
-                        <figure>
-                            <img src='/images/about/functionalExperts/Mr-Rajneesh-Manager.jpg' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Mr. Rajneesh</h3>
-                            <p>FAE - SW, WP</p>
-                        </div>
-                    </div>
-                    <div className='about-funtionalArea-content-image'>
-                        <figure>
-                            <img src='/images/about/functionalExperts/Reena_Tripath-removebg-preview-e1623603019716.png' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Ms. Reena Tripathi</h3>
-                            <p>Laboratory Manager <br />FAE - WP & SC</p>
-                        </div>
-                    </div>
-                    <div className='about-funtionalArea-content-image'>
-                        <figure>
-                            <img src='/images/about/functionalExperts/Rama-Shanker-Shukla.jpg' alt='' />
-                        </figure>
-                        <div>
-                            <h3>Mr. R S Shukla</h3>
-                            <p>FAE - LU, EB</p>
+                            <h3>Mr. Murali Manas P</h3>
+                            <p>Head of Projects</p>
+                            <p>murali.manas@ecomen.in</p>
                         </div>
                     </div>
                 </div>
             </section >
 
-
-            {/* Project Management Cell */}
-            <section className='about-projectManagement'>
-                <div className='about-projectManagement-heading'>
-                    <h1>Project Management Cell</h1>
+            {/* Departments */}
+            {/* Environmental Clearance */}
+            <section className='about-ec'>
+                <div className='about-ec-heading'>
+                    <h1>Departments</h1>
                 </div>
-                <div className='about-projectManagement-content'>
-                    <div className='about-projectManagement-content-image'>
+                <div className='about-ec-heading'>
+                    <h1>Environmental Clearance</h1>
+                </div>
+                <div className='about-ec-content'>
+                    <div className='about-ec-content-image'>
                         <figure>
-                            <img src='/images/about/projectManagementCell/Mr.-Aman-Dixit.jpg' alt='' />
+                            <img src='/images/about/environmentClearence/Naaz-2.jpeg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Aman Dixit</h3>
-                            <p>Project Manager</p>
+                            <h3>Nazheen khasim</h3>
+                            <p>Junior manager EC/CAD expert</p>
+                            <p>nazheen.kasim@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-projectManagement-content-image'>
+                    <div className='about-ec-content-image'>
                         <figure>
-                            <img src='/images/about/projectManagementCell/Mallika_Brahma-removebg-preview.png' alt='' />
+                            <img src='/images/about/environmentClearence/Anuma.jpg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Brahmaiah</h3>
-                            <p>Manager (Geologist)</p>
+                            <h3>Dr. Anuma Saroja</h3>
+                            <p>Assistant Manager (Environment)</p>
+                            <p>anuma.saroja@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-projectManagement-content-image'>
+                    <div className='about-ec-content-image'>
                         <figure>
-                            <img src='/images/about/projectManagementCell/Mr-Abhishek-Singh-Quality-Manager.jpg' alt='' />
+                            <img src='/images/about/environmentClearence/lakshmi-2.jpeg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Abhishek Singh</h3>
-                            <p>Quality Manager</p>
+                            <h3>Lakshmi Raveendran</h3>
+                            <p>Senior environmental officer</p>
+                            <p>lakshmi.raveendran@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-projectManagement-content-image'>
+                    <div className='about-ec-content-image'>
                         <figure>
-                            <img src='/images/about/projectManagementCell/Murali_Manas-removebg-preview-1.png' alt='' />
+                            <img src='/images/about/environmentClearence/Shanit-Jose.jpeg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Murali Manas</h3>
-                            <p>Mines Manager</p>
+                            <h3>Shanit Jose</h3>
+                            <p>Environmental Officer</p>
+                            <p>shanit.jose@ecomen.in</p>
                         </div>
                     </div>
-                    <div className='about-projectManagement-content-image'>
+                    <div className='about-ec-content-image'>
                         <figure>
-                            <img src='/images/about/projectManagementCell/Harshavardhan_Reddy-removebg-preview.png' alt='' />
+                            <img src='/images/about/environmentClearence/Christ.jpg' alt='' />
                         </figure>
                         <div>
-                            <h3>Mr. Harshavardhan</h3>
-                            <p>Surveyor</p>
+                            <h3>Christeena Varghese</h3>
+                            <p>Environmental Officer</p>
+                            <p>christeena.varghese@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-ec-content-image'>
+                        <figure>
+                            <img src='/images/about/environmentClearence/Nivedita-Jha-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Nivedita Jha</h3>
+                            <p>Environment Engineer</p>
+                            <p>nivedita.jha@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-ec-content-image'>
+                        <figure>
+                            <img src='/images/about/environmentClearence/Meghana.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Meghana H M</h3>
+                            <p>Environment Engineer</p>
+                            <p>meghana.hm@ecomen.in</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            {/* Mining */}
+            <section className='about-mining'>
+                <div className='about-mining-heading'>
+                    <h1>Mining</h1>
+                </div>
+                <div className='about-mining-content'>
+                    <div className='about-ec-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Sreyas-Pramod.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Sreyas Pramod</h3>
+                            <p>Mining Engineer</p>
+                            <p>sreyas.pramod@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Ranjeeth-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Ranjeeth Kumar</h3>
+                            <p>Mining Engineer</p>
+                            <p>ranjeeth.kumar@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Sagar-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Sagar Gowda</h3>
+                            <p>Mining Engineer</p>
+                            <p>sagar.gowda@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Dhannasi-Babu.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Dhannasi Babu </h3>
+                            <p>Mining Engineer</p>
+                            <p>dhanyasi.babu@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Krishna-Prasad.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Krishna Prasad</h3>
+                            <p>Mining Engineer</p>
+                            <p>krishna.prasad@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Santosh-Mining-Eng.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Santosh Kumar Sahani</h3>
+                            <p>Mining Engineer</p>
+                            <p>santosh.sahani@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-mining-content-image'>
+                        <figure>
+                            <img src='/images/about/mining/Chaitra.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Chaitra K</h3>
+                            <p>Autocad Engineer (FC & DPR)</p>
+                            <p>chaitra.k@ecomen.in</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            {/* DPR */}
+            <section className='about-dpr'>
+                <div className='about-dpr-heading'>
+                    <h1>DPR</h1>
+                </div>
+                <div className='about-dpr-content'>
+                    <div className='about-dpr-content-image'>
+                        <figure>
+                            <img src='/images/about/dpr/Hyder.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Hyder Pasha CA</h3>
+                            <p>Auto cad Expert & Technical writer</p>
+                            <p>hyder.pasha@ecomen.in</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            {/* Geologist */}
+            <section className='about-geologist'>
+                <div className='about-geologist-heading'>
+                    <h1>Geologist</h1>
+                </div>
+                <div className='about-geologist-content'>
+                <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/Brahmaiah-pic.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Dr. Thallapalli Brahmaiah</h3>
+                            <p>Manager (Geology)</p>
+                            <p>brahmam.thallapalli@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/Ananda-Murthy-sama.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Sama Ananda Murthy </h3>
+                            <p>Project Coordinator (Geologist)</p>
+                            <p>sama.anadamurthy@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/Darshana_pic.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Darshana Kumare</h3>
+                            <p>GIS Engineer</p>
+                            <p>darshana.kumare@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/Jayaprakash.JPG' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Jayaprakash B B</h3>
+                            <p>Geologist</p>
+                            <p>jayaprakash.bb@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/Sekhar.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Sekhar Kakkalapalli</h3>
+                            <p>Geologist</p>
+                            <p>sekhar.kakkalapalli@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-geologist-content-image'>
+                        <figure>
+                            <img src='/images/about/geologist/vijay.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Vijay Kumar</h3>
+                            <p>Geologist</p>
+                            <p>vijay.kumar@ecomen.in</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            {/* Laboratory */}
+            <section className='about-laboratory'>
+                <div className='about-laboratory-heading'>
+                    <h1>Laboratory</h1>
+                </div>
+                <div className='about-laboratory-content'>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Jubin-sir-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Dr. Jubin George Joseph</h3>
+                            <p>Head & Quality Manager (Lab)</p>
+                            <p>jubin.george@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Midhun.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Dr. Midhun G</h3>
+                            <p>Technical Manager (Chemical)</p>
+                            <p>midhun.g@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Bindu-3.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Bindu Nerakallu Ranganathaiah</h3>
+                            <p>Technical Manager (Microbiology)</p>
+                            <p>bindu.nerakallu@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/LaxmiPatil.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Laxmi Patil</h3>
+                            <p>Analyst (Chemical)</p>
+                            <p>lakshmi.patil@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Varshitha-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Varshitha.K</h3>
+                            <p>Analyst (Chemical)</p>
+                            <p>varshitha.k@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Priya-3.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Priya</h3>
+                            <p>Analyst (Chemical)</p>
+                            <p>priya.n@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-laboratory-content-image'>
+                        <figure>
+                            <img src='/images/about/laboratory/Malathi-K.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Malathi K</h3>
+                            <p>Sr. Analyst (Ores & Minerals)</p>
+                            <p>malathi.k@ecomen.in</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            {/* HR , Accounts & Administration */}
+            <section className='about-hraa'>
+                <div className='about-hraa-heading'>
+                    <h1>HR , Accounts & Administration</h1>
+                </div>
+                <div className='about-hraa-content'>
+                    <div className='about-hraa-content-image'>
+                        <figure>
+                            <img src='/images/about/hraccounts/SujithPhoto-ForAssociation.jpg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Sujith</h3>
+                            <p>Finance & HR Manager</p>
+                            <p>sujith.kumar@ecomen.in</p>
+                        </div>
+                    </div>
+                    <div className='about-hraa-content-image'>
+                        <figure>
+                            <img src='/images/about/hraccounts/Santhosh-Admin.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>S. Santhosh</h3>
+                            <p>Admin Staff</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div className='about-hraa-content-image'>
+                        <figure>
+                            <img src='/images/about/hraccounts/Shivanand.png' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Shivanand A H</h3>
+                            <p>Accounts assistant cum driver</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div className='about-hraa-content-image'>
+                        <figure>
+                            <img src='/images/about/hraccounts/Gagan-2.jpeg' alt='' />
+                        </figure>
+                        <div>
+                            <h3>Gagan Singh Bista</h3>
+                            <p>Office assistant</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
