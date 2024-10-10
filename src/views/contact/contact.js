@@ -2,10 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import './contact.css';
 import { Map, GoogleApiWrapper, } from 'google-maps-react'; //Marker
 
-
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
-
 
 const formatAddress = (address) => {
     return address.replace(/Ecomen Laboratories Pvt. Ltd\./g, '<strong>Ecomen Laboratories Pvt. Ltd.</strong>');
@@ -43,12 +41,12 @@ const Contact = (props) => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-            // .sendForm('service_hpo3esy', 'template_inq2jkb', form.current, {
-            //     publicKey: 'e70SHpBXhK2elvQum',
-            // })
-            .sendForm('service_key', 'template_key', form.current, {
-                publicKey: 'public_key',
+            .sendForm('service_z71drgb', 'template_pwcc0b9', form.current, {
+                publicKey: 'H8gDxY_TJhGN-Y3yg',
             })
+            // .sendForm('service_key', 'template_key', form.current, {
+            //     publicKey: 'public_key',
+            // })
             .then(
                 (response) => {
                     // console.log(response)
